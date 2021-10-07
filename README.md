@@ -8,7 +8,7 @@ Towards the end of 2019, the Severe acute respiratory syndrome-related coronavir
 - their ability to carry out evolutionary analysis of SARS-CoV-2 
 
 ## Aim
-- To find the evolutionary relationship between SARS-COV2 sequences from different countries in Africa using different phylogenetic analysis tools: Galaxy and Augur 
+- To compare the efficiency and reliability of different tools in determining the evolutionary relationship between SARS-CoV-2 sequences from different African countries. 
 
 ## Objectives
 - To compare galaxy and augur workflows for the molecular and genetic evolutionary analysis of African SARS-CoV-2 variants

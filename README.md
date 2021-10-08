@@ -27,7 +27,7 @@ Towards the end of 2019, the Severe acute respiratory syndrome-related coronavir
 <details>
  <summary>Augur Workflows</summary>
 </details>
-![Our_workflow](https://user-images.githubusercontent.com/72727098/136516771-d6022998-65ed-4a20-97de-70c2d5304126.JPG)
+<p align="center"><img src = "https://github.com/SadafRaza/SARS-CoV-2-Vars/blob/main/workflow.jfif"></p>
 
 
 ## Contributors
@@ -36,4 +36,4 @@ Towards the end of 2019, the Severe acute respiratory syndrome-related coronavir
 3. [Marion Nyaboke](https://github.com/marionnyaboke)
 4. [Laurah Ondari](https://github.com/Nyasita)
 5. [Leonard Uzairue](https://github.com/Uzairue1)
-6. Sadaf
+6. [Sadaf Raza](https://github.com/SadafRaza)

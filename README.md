@@ -2,7 +2,7 @@
 Molecular and Genetic Evolutionary Analysis of African SARS-CoV-2 Variants to Inform Vaccine Efficacy
 
 ## Background
-Towards the end of 2019, the Severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) emerged in Wuhan China. Since then the virus has spread all over the world including the African Continent. In Parallel a myriad of bioinformatics tools have been developed to analyze the insurmountable data generated to study the disease. Some tools are user friendly as they are created to run on graphical user interfaces (GUI) while others are a bit more technical requiring the users to have some expertise. The most popular GUI tool used often is Galaxy. In this project we aim to compare the Augur (a command line tool) and Galaxy as pertains to:
+Towards the end of 2019, the Severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) emerged in Wuhan China. Since then the virus has spread all over the world including the African Continent. In Parallel a myriad of bioinformatics tools have been developed to analyze the insurmountable data generated to study the disease. Some tools are user friendly as they are created to run on graphical user interfaces (GUI) while others are a bit more technical requiring the users to have some expertise. The most popular GUI tool used often is Galaxy. In this project we aim to compare Augur (a command line tool) and Galaxy as pertains to:
 - their use
 - their outputs
 - their ability to carry out evolutionary analysis of SARS-CoV-2 
@@ -27,10 +27,12 @@ Towards the end of 2019, the Severe acute respiratory syndrome-related coronavir
 <details>
  <summary>Augur Workflows</summary>
 </details>
+![Our_workflow](https://user-images.githubusercontent.com/72727098/136516771-d6022998-65ed-4a20-97de-70c2d5304126.JPG)
+
 
 ## Contributors
 1. [Martha Luka](https://github.com/marthaluka)
-2. Zainab Elouafi
+2. [Zainab Elouafi](https://github.com/zainabel11)
 3. [Marion Nyaboke](https://github.com/marionnyaboke)
 4. [Laurah Ondari](https://github.com/Nyasita)
 5. [Leonard Uzairue](https://github.com/Uzairue1)

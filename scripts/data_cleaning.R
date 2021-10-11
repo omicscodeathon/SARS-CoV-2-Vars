@@ -1,6 +1,6 @@
 
 
-#First clean up names on fasta file using 
+#First clean up names on fasta file using (to remove the long description after GenBank accession number)
     #cat ./my_shared_data_folder/raw_data.fasta | sed '/^>/s/\..*//' >rawData_cleanedNames.fasta
 
 require("pacman")

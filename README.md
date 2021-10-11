@@ -1,5 +1,5 @@
 # SARS-CoV-2-Vars
-Molecular and Genetic Evolutionary Analysis of African SARS-CoV-2 Variants to Inform Vaccine Efficacy
+Molecular and Genetic Evolutionary Analysis of SARS-CoV-2 in Africa - a phylogenetic tools comparison
 
 ## Background
 Towards the end of 2019, the Severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) emerged in Wuhan China. Since then the virus has spread all over the world including the African Continent. In Parallel a myriad of bioinformatics tools have been developed to analyze the insurmountable data generated to study the disease. Some tools are user friendly as they are created to run on graphical user interfaces (GUI) while others are a bit more technical requiring the users to have some expertise. The most popular GUI tool used often is Galaxy. In this project we aim to compare Augur (a command line tool) and Galaxy as pertains to:

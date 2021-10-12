@@ -1,0 +1,109 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Mac OS X 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Marthas-iMac (SSE4.2, 16 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 1 -s results/aligned-delim.fasta -m GTR
+Seed:    378332 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Oct 10 09:33:54 2021
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 38 sequences with 29903 columns, 526 distinct patterns
+89 parsimony-informative, 268 singleton sites, 29546 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  NC_045512.2    0.00%    passed     98.98%
+   2  MT324062       0.00%    passed     99.38%
+   3  MT731327       0.00%    passed     99.48%
+   4  LR963451       0.46%    passed     99.79%
+   5  MT872497       0.13%    passed     99.37%
+   6  MW751124       4.82%    passed     99.11%
+   7  MZ040130       0.40%    passed     99.96%
+   8  MZ040128       0.40%    passed     99.96%
+   9  OK018220       3.23%    passed     99.82%
+  10  MT653071       0.35%    passed     99.98%
+  11  MT653080       0.33%    passed     99.91%
+  12  MW474741       0.07%    passed     99.86%
+  13  OK001876       0.00%    passed     98.50%
+  14  LR963402       3.73%    passed     99.13%
+  15  MT790522       0.41%    passed     99.83%
+  16  MT994707       0.42%    passed     99.83%
+  17  MZ619091       5.56%    passed     28.64%
+  18  MZ622025       0.80%    passed     99.90%
+  19  MW018428       0.33%    passed     99.91%
+  20  MZ054879       0.30%    passed     99.90%
+  21  MT890205       1.12%    passed     99.83%
+  22  MW566800      14.01%    passed     94.85%
+  23  MZ172409       0.11%    passed     99.99%
+  24  MW426406       0.07%    passed     99.73%
+  25  MZ287350       0.31%    passed    100.00%
+  26  MZ287361       0.31%    passed     99.97%
+  27  MZ571142       0.28%    passed     99.98%
+  28  MZ149969       0.46%    passed     99.98%
+  29  MW703381       0.23%    passed     99.97%
+  30  MZ540788       9.22%    passed     94.02%
+  31  OK018237       1.19%    passed     99.90%
+  32  OK091660       0.35%    passed     99.99%
+  33  MZ854386       0.24%    passed     99.96%
+  34  OK348762       5.08%    passed     99.86%
+  35  MZ520070       0.47%    passed     99.99%
+  36  MZ150527       2.58%    passed     94.04%
+  37  MZ215672       1.82%    passed     99.00%
+  38  OK354409       0.57%    passed     99.60%
+****  TOTAL          1.58%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -44398.747
+2. Current log-likelihood: -44262.348
+Optimal log-likelihood: -44262.336
+Rate parameters:  A-C: 0.35209  A-G: 0.96687  A-T: 0.23472  C-G: 0.31863  C-T: 2.46345  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.322
+Parameters optimization took 2 rounds (0.027 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.010250 sec (of wall-clock time) 0.009806 sec(of CPU time)
+Computing RapidNJ tree took 0.000325 sec (of wall-clock time) 0.000392 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -44309.844
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -44262.322
+Finish initializing candidate tree set (4)
+Current best tree score: -44262.322 / CPU time: 0.033
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -44262.322
+Optimal log-likelihood: -44262.319
+Rate parameters:  A-C: 0.35446  A-G: 0.96764  A-T: 0.23824  C-G: 0.31874  C-T: 2.46508  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.322
+Parameters optimization took 1 rounds (0.008 sec)
+BEST SCORE FOUND : -44262.319
+Total tree length: 0.013
+
+Total number of iterations: 2
+CPU time used for tree search: 0.058 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.033 sec (0h:0m:0s)
+Total CPU time used: 0.131 sec (0h:0m:0s)
+Total wall-clock time used: 0.101 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned-delim.fasta.treefile
+  Likelihood distances:          results/aligned-delim.fasta.mldist
+  Screen log file:               results/aligned-delim.fasta.log
+
+Date and Time: Sun Oct 10 09:33:54 2021

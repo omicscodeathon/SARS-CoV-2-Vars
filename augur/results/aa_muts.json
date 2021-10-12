@@ -1,0 +1,1390 @@
+{
+  "annotations": {
+    "GU280_gp01": {
+      "end": 13483,
+      "seqid": "config/outgroup.gb",
+      "start": 266,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp02": {
+      "end": 25384,
+      "seqid": "config/outgroup.gb",
+      "start": 21563,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp03": {
+      "end": 26220,
+      "seqid": "config/outgroup.gb",
+      "start": 25393,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp04": {
+      "end": 26472,
+      "seqid": "config/outgroup.gb",
+      "start": 26245,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp05": {
+      "end": 27191,
+      "seqid": "config/outgroup.gb",
+      "start": 26523,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp06": {
+      "end": 27387,
+      "seqid": "config/outgroup.gb",
+      "start": 27202,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp07": {
+      "end": 27759,
+      "seqid": "config/outgroup.gb",
+      "start": 27394,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp08": {
+      "end": 27887,
+      "seqid": "config/outgroup.gb",
+      "start": 27756,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp09": {
+      "end": 28259,
+      "seqid": "config/outgroup.gb",
+      "start": 27894,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp10": {
+      "end": 29533,
+      "seqid": "config/outgroup.gb",
+      "start": 28274,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "GU280_gp11": {
+      "end": 29674,
+      "seqid": "config/outgroup.gb",
+      "start": 29558,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 29903,
+      "seqid": "config/outgroup.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "13.0.1"
+  },
+  "nodes": {
+    "LR963402": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "LR963451": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "N481K"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "S194L"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MT324062": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT653071": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "E583D"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT653080": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "K292N"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT731327": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "V2047F",
+          "T2648I"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT790522": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT872497": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "A1397S"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT890205": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MT994707": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MW018428": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "R560C",
+          "L2688F"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MW426406": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "K1247N",
+          "A3623S"
+        ],
+        "GU280_gp02": [
+          "A222V",
+          "K1191N"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "A220V"
+        ],
+        "GU280_gp11": [
+          "V30L"
+        ]
+      }
+    },
+    "MW474741": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [
+          "S171L",
+          "H182Y"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MW566800": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "L3796F"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [
+          "L206V",
+          "N207D"
+        ],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MW703381": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "L204F",
+          "S1087A",
+          "V1339I",
+          "S3547G"
+        ],
+        "GU280_gp02": [
+          "N501Y",
+          "M1229I"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "W45C"
+        ],
+        "GU280_gp10": [
+          "S194L",
+          "D377Y"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MW751124": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ040128": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "S2103F"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [
+          "L46F"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ040130": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "Q2702H"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ054879": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "R207C"
+        ],
+        "GU280_gp02": [
+          "T1117I"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [
+          "I82T"
+        ],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "A12G"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MZ149969": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "L446F",
+          "M1378I",
+          "P2739L",
+          "Y3063S",
+          "P3767L"
+        ],
+        "GU280_gp02": [
+          "L452R",
+          "Y1155F",
+          "V1228L"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ150527": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "G3578S"
+        ],
+        "GU280_gp02": [
+          "H1159R"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [
+          "S50G"
+        ],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "Q229H"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MZ172409": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "T224I",
+          "F679L"
+        ],
+        "GU280_gp02": [
+          "R78S",
+          "D80Y",
+          "Q836H"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [
+          "E92K"
+        ],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "P199L"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MZ215672": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ287350": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "T814I",
+          "M3655I",
+          "L3667F"
+        ],
+        "GU280_gp02": [
+          "V367F",
+          "Q613H",
+          "A1087S"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "E92K"
+        ],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ287361": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "A1092T",
+          "Q1592R",
+          "T1840I"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "P142A",
+          "D402Y"
+        ],
+        "GU280_gp11": [
+          "S23F"
+        ]
+      }
+    },
+    "MZ520070": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "T1001I",
+          "A1708D",
+          "I2230T",
+          "S2500F"
+        ],
+        "GU280_gp02": [
+          "N501Y",
+          "A570D",
+          "P681H",
+          "T716I",
+          "S982A",
+          "D1118H"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "Q27*",
+          "R52I",
+          "Y73C"
+        ],
+        "GU280_gp10": [
+          "D3L",
+          "S235F"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MZ540788": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "P2046L",
+          "T2152I",
+          "N2596S"
+        ],
+        "GU280_gp02": [
+          "A67V"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ571142": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "T1567I",
+          "T3646A"
+        ],
+        "GU280_gp02": [
+          "T95I",
+          "G142D",
+          "E154K",
+          "E484Q",
+          "Q1071H"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [
+          "I82S"
+        ],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ619091": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "S538T",
+          "L1762P",
+          "T3308I"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "MZ622025": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [
+          "E55*"
+        ],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "R95H"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "MZ854386": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "P309L",
+          "E1633D",
+          "P1640L",
+          "H2092Y",
+          "P2376L",
+          "A3209V",
+          "V3718A"
+        ],
+        "GU280_gp02": [
+          "G142D",
+          "R158G",
+          "G446V"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [
+          "I82T"
+        ],
+        "GU280_gp06": [],
+        "GU280_gp07": [
+          "L116F"
+        ],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "D119E"
+        ],
+        "GU280_gp10": [
+          "L139F",
+          "R385K",
+          "Q418L"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {},
+      "aa_sequences": {
+        "GU280_gp01": "MESLVPGFNEKTHVQLSLPVLQVRDVLVRGFGDSVEEVLSEARQHLKDGTCGLVEVEKGVLPQLEQPYVFIKRSDARTAPHGHVMVELVAELEGIQYGRSGETLGVLVPHVGEIPVAYRKVLLRKNGNKGAGGHSYGADLKSFDLGDELGTDPYEDFQENWNTKHSSGVTRELMRELNGGAYTRYVDNNFCGPDGYPLECIKDLLARAGKASCTLSEQLDFIDTKRGVYCCREHEHEIAWYTERSEKSYELQTPFEIKLAKKFDTFNGECPNFVFPLNSIIKTIQPRVEKKKLDGFMGRIRSVYPVASPNECNQMCLSTLMKCDHCGETSWQTGDFVKATCEFCGTENLTKEGATTCGYLPQNAVVKIYCPACHNSEVGPEHSLAEYHNESGLKTILRKGGRTIAFGGCVFSYVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNINIVGDFKLNEEIAIILASFSASTSAFVETVKGLDYKAFKQIVESCGNFKVTKGKAKKGAWNIGEQKSILSPLYAFASEAARVVRSIFSRTLETAQNSVRVLQKAAITILDGISQYSLRLIDAMMFTSDLATNNLVVMAYITGGVVQLTSQWLTNIFGTVYEKLKPVLDWLEEKFKEGVEFLRDGWEIVKFISTCACEIVGGQIVTCAKEIKESVQTFFKLVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLLMPLKAPKEIIFLEGETLPTEVLTEEVVLKTGDLQPLEQPTSEAVEAPLVGTPVCINGLMLLEIKDTEKYCALAPNMMVTNNTFTLKGGAPTKVTFGDDTVIEVQGYKSVNITFELDERIDKVLNEKCSAYTVELGTEVNEFACVVADAVIKTLQPVSELLTPLGIDLDEWSMATYYLFDESGEFKLASHMYCSFYPPDEDEEEGDCEEEEFEPSTQYEYGTEDDYQGKPLEFGATSAALQPEEEQEEDWLDDDSQQTVGQQDGSEDNQTTTIQTIVEVQPQLEMELTPVVQTIEVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFLEMKSEKQVEQKIAEIPKEEVKPFITESKPSVEQRKQDDKKIKACVEEVTTTLEETKFLTENLLLYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLAKALRKVPTDNYITTYPGQGLNGYTVEEAKTVLKKCKSAFYILPSIISNEKQEILGTVSWNLREMLAHAEETRKLMPVCVETKAIVSTIQRKYKGIKIQEGVVDYGARFYFYTSKTTVASLINTLNDLNETLVTMPLGYVTHGLNLEEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSSSKTPEEHFIETISLAGSYKDWSYSGQSTQLGIEFLKRGDKSVYYTSNPTTFHLDGEVITFDNLKTLLSLREVRTIKVFTTVDNINLHTQVVDMSMTYGQQFGPTYLDGADVTKIKPHNSHEGKTFYVLPNDDTLRVEAFEYYHTTDPSFLGRYMSALNHTKKWKYPQVNGLTSIKWADNNCYLATALLTLQQIELKFNPPALQDAYYRARAGEAANFCALILAYCNKTVGELGDVRETMSYLFQHANLDSCKRVLNVVCKTCGQQQTTLKGVEAVMYMGTLSYEQFKKGVQIPCTCGKQATKYLVQQESPFVMMSAPPAQYELKHGTFTCASEYTGNYQCGHYKHITSKETLYCIDGALLTKSSEYKGPITDVFYKENSYTTTIKPVTYKLDGVVCTEIDPKLDNYYKKDNSYFTEQPIDLVPNQPYPNASFDNFKFVCDNIKFADDLNQLTGYKKPASRELKVTFFPDLNGDVVAIDYKHYTPSFKKGAKLLHKPIVWHVNNATNKATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEEVVENPTIQKDVLECNVKTTEVVGDIILKPANNSLKITEEVGHTDLMAAYVDNSSLTIKKPNELSRVLGLKTLATHGLAAVNSVPWDTIANYAKPFLNKVVSTTTNIVTRCLNRVCTNYMPYFFTLLLQLCTFTRSTNSRIKASMPTTIAKNTVKSVGKFCLEASFNYLKSPNFSKLINIIIWFLLLSVCLGSLIYSTAALGVLMSNLGMPSYCTGYREGYLNSTNVTIATYCTGSIPCSVCLSGLDSLDTYPSLETIQITISSFKWDLTAFGLVAEWFLAYILFTRFFYVLGLAAIMQLFFSYFAVHFISNSWLMWLIINLVQMAPISAMVRMYIFFASFYYVWKSYVHVVDGCNSSTCMMCYKRNRATRVECTTIVNGVRRSFYVYANGGKGFCKLHNWNCVNCDTFCAGSTFISDEVARDLSLQFKRPINPTDQSSYIVDSVTVKNGSIHLYFDKAGQKTYERHSLSHFVNLDNLRANNTKGSLPINVIVFDGKSKCEESSAKSASVYYSQLMCQPILLLDQALVSDVGDSAEVAVKMFDAYVNTFSSTFNVPMEKLKTLVATAEAELAKNVSLDNVLSTFISAARQGFVDSDVETKDVVECLKLSHQSDIEVTGDSCNNYMLTYNKVENMTPRDLGACIDCSARHINAQVAKSHNIALIWNVKDFMSLSEQLRKQIRSAAKKNNLPFKLTCATTRQVVNVVTTKIALKGGKIVNNWLKQLIKVTLVFLFVAAIFYLITPVHVMSKHTDFSSEIIGYKAIDGGVTRDIASTDTCFANKHADFDTWFSQRGGSYTNDKACPLIAAVITREVGFVVPGLPGTILRTTNGDFLHFLPRVFSAVGNICYTPSKLIEYTDFATSACVLAAECTIFKDASGKPVPYCYDTNVLEGSVAYESLRPDTRYVLMDGSIIQFPNTYLEGSVRVVTTFDSEYCRHGTCERSEAGVCVSTSGRWVLNNDYYRSLPGVFCGVDAVNLLTNMFTPLIQPIGALDISASIVAGGIVAIVVTCLAYYFMRFRRAFGEYSHVVAFNTLLFLMSFTVLCLTPVYSFLPGVYSVIYLYLTFYLTNDVSFLAHIQWMVMFTPLVPFWITIAYIICISTKHFYWFFSNYLKRRVVFNGVSFSTFEEAALCTFLLNKEMYLKLRSDVLLPLTQYNRYLALYNKYKYFSGAMDTTSYREAACCHLAKALNDFSNSGSDVLYQPPQTSITSAVLQSGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQSAVKRTIKGTHHWLLLTILTSLLVLVQSTQWSLFFFLYENAFLPFAMGIIAMSAFAMMFVKHKHAFLCLFLLPSLATVAYFNMVYMPASWVMRIMTWLDMVDTSLSGFKLKDCVMYASAVVLLILMTARTVYDDGARRVWTLMNVLTLVYKVYYGNALDQAISMWALIISVTSNYSGVVTTVMFLARGIVFMCVEYCPIFFITGNTLQCIMLVYCFLGYFCTCYFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKNSIDAFKLNIKLLGVGGKPCIKVATVQSKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFDRDAAMQRKLEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIINNARDGCVPLNIIPLTTAAKLMVVIPDYNTYKNTCDGTTFTYASALWEIQQVVDADSKIVQLSEISMDNSPNLAWPLIVTALRANSAVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLALLSDLQDLKWARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFIKGLNNLNRGMVLGSLAATVRLQAGNATEVPANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCGMWKGYGCSCDQLREPMLQSADAQSFLNGFAV*",
+        "GU280_gp02": "MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT*",
+        "GU280_gp03": "MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGVALLAVFQSASKIITLKKRWQLALSKGVHFVCNLLLLFVTVYSHLLLVAAGLEAPFLYLYALVYFLQSINFVRIIMRLWLCWKCRSKNPLLYDANYFLCWHTNCYDYCIPYNSVTSSIVITSGDGTTSPISEHDYQIGGYTEKWESGVKDCVVLHSYFTSDYYQLYSTQLSTDTGVEHVTFFIYNKIVDEPEEHVQIHTIDGSSGVVNPVMEPIYDEPTTTTSVPL*",
+        "GU280_gp04": "MYSFVSEETGTLIVNSVLLFLAFVVFLLVTLAILTALRLCAYCCNIVNVSLVKPSFYVYSRVKNLNSSRVPDLLV*",
+        "GU280_gp05": "MADSNGTITVEELKKLLEQWNLVIGFLFLTWICLLQFAYANRNRFLYIIKLIFLWLLWPVTLACFVLAAVYRINWITGGIAIAMACLVGLMWLSYFIASFRLFARTRSMWSFNPETNILLNVPLHGTILTRPLLESELVIGAVILRGHLRIAGHHLGRCDIKDLPKEITVATSRTLSYYKLGASQRVAGDSGFAAYSRYRIGNYKLNTDHSSSSDNIALLVQ*",
+        "GU280_gp06": "MFHLVDFQVTIAEILLIIMRTFKVSIWNLDYIINLIIKNLSKSLTENKYSQLDEEQPMEID*",
+        "GU280_gp07": "MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVSPKLFIRQEEVQELYSPIFLIVAAIVFITLCFTLKRKTE*",
+        "GU280_gp08": "MIELSLIDFYLCFLAFLLFLVLIMLIIFWFSLELQDHNETCHA*",
+        "GU280_gp09": "MKFLVFLGIITTVAAFHQECSLQSCTQHQPYVVDDPCPIHFYSKWYIRVGARKSAPLIELCVDEAGSKSPIQYIDIGNYTVSCLPFTINCQEPKLGSLVVRCSFYEDFLEYHDVRVVLDFI*",
+        "GU280_gp10": "MSDNGPQNQRNAPRITFGGPSDSTGSNQNGERSGARSKQRRPQGLPNNTASWFTALTQHGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVATEGALNTPKDHIGTRNPANNAAIVLQLPQGTTLPKGFYAEGSRGGSQASSRSSSRSRNSSRNSTPGSSRGTSPARMAGNGGDAALALLLLDRLNQLESKMSGKGQQQQGQTVTKKSAAEASKKPRQKRTATKAYNVTQAFGRRGPEQTQGNFGDQELIRQGTDYKHWPQIAQFAPSASAFFGMSRIGMEVTPSGTWLTYTGAIKLDDKDPNFKDQVILLNKHIDAYKTFPPTEPKKDKKKKADETQALPQRQKKQQTVTLLPAADLDDFSKQLQQSMSSADSTQA*",
+        "GU280_gp11": "MGYINVFAFPFTIYSLLLCRMNSRNYIAQVDVVNFNLT*"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "L84S"
+        ],
+        "GU280_gp10": [
+          "S202N"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "G614D"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000012": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [
+          "Q57H"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000013": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "T265I"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000015": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000019": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "L452R",
+          "P681R"
+        ],
+        "GU280_gp03": [
+          "S26L"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [
+          "V82A"
+        ],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "R203M",
+          "D377Y"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000020": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "T19R",
+          "T478K",
+          "D950N"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [
+          "T120I"
+        ],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "F120L"
+        ],
+        "GU280_gp10": [
+          "D63G"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000021": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "A1306S",
+          "P2046L",
+          "P2287S",
+          "T3255I",
+          "T3646A"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [
+          "T40I"
+        ],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "G215C"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000022": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "R203K",
+          "G204R"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000023": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000025": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000026": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000027": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000028": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "G1073V",
+          "T1542I",
+          "T2007I"
+        ],
+        "GU280_gp02": [
+          "Q52R",
+          "A67V",
+          "D215Y",
+          "E484K",
+          "Q677H",
+          "F888L"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [
+          "L21F"
+        ],
+        "GU280_gp05": [
+          "I82T"
+        ],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "A12G",
+          "T205I",
+          "R385K",
+          "Q386K",
+          "Q389K",
+          "Q390K"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000029": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "T265I",
+          "K1655N",
+          "K3353R"
+        ],
+        "GU280_gp02": [
+          "L18F",
+          "D80A",
+          "D215G",
+          "E484K",
+          "N501Y",
+          "A701V"
+        ],
+        "GU280_gp03": [
+          "Q57H",
+          "S171L"
+        ],
+        "GU280_gp04": [
+          "P71L"
+        ],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "T205I"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000030": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "K417N"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000031": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000032": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000033": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000034": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000035": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "NODE_0000037": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "OK001876": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "Y241N",
+          "I2286R",
+          "H2659Q"
+        ],
+        "GU280_gp02": [
+          "G799D"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": [
+          "V33D"
+        ]
+      }
+    },
+    "OK018220": {
+      "aa_muts": {
+        "GU280_gp01": [],
+        "GU280_gp02": [
+          "D936Y"
+        ],
+        "GU280_gp03": [],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "OK018237": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "G400C",
+          "I2873T",
+          "A3523V"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [
+          "T151I"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "E378V"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "OK091660": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "N4358K"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [
+          "W131L"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [
+          "V93F"
+        ],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [
+          "R32H"
+        ],
+        "GU280_gp11": []
+      }
+    },
+    "OK348762": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "V2930L",
+          "A3571V"
+        ],
+        "GU280_gp02": [],
+        "GU280_gp03": [
+          "L71I",
+          "G172C"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [
+          "I82T"
+        ],
+        "GU280_gp06": [],
+        "GU280_gp07": [],
+        "GU280_gp08": [],
+        "GU280_gp09": [],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    },
+    "OK354409": {
+      "aa_muts": {
+        "GU280_gp01": [
+          "R207C",
+          "F685I",
+          "V3660M",
+          "Q3966H"
+        ],
+        "GU280_gp02": [
+          "T95I"
+        ],
+        "GU280_gp03": [
+          "K21N"
+        ],
+        "GU280_gp04": [],
+        "GU280_gp05": [],
+        "GU280_gp06": [],
+        "GU280_gp07": [
+          "A82V"
+        ],
+        "GU280_gp08": [],
+        "GU280_gp09": [
+          "R101H"
+        ],
+        "GU280_gp10": [],
+        "GU280_gp11": []
+      }
+    }
+  },
+  "reference": {
+    "GU280_gp01": "MESLVPGFNEKTHVQLSLPVLQVRDVLVRGFGDSVEEVLSEARQHLKDGTCGLVEVEKGVLPQLEQPYVFIKRSDARTAPHGHVMVELVAELEGIQYGRSGETLGVLVPHVGEIPVAYRKVLLRKNGNKGAGGHSYGADLKSFDLGDELGTDPYEDFQENWNTKHSSGVTRELMRELNGGAYTRYVDNNFCGPDGYPLECIKDLLARAGKASCTLSEQLDFIDTKRGVYCCREHEHEIAWYTERSEKSYELQTPFEIKLAKKFDTFNGECPNFVFPLNSIIKTIQPRVEKKKLDGFMGRIRSVYPVASPNECNQMCLSTLMKCDHCGETSWQTGDFVKATCEFCGTENLTKEGATTCGYLPQNAVVKIYCPACHNSEVGPEHSLAEYHNESGLKTILRKGGRTIAFGGCVFSYVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNINIVGDFKLNEEIAIILASFSASTSAFVETVKGLDYKAFKQIVESCGNFKVTKGKAKKGAWNIGEQKSILSPLYAFASEAARVVRSIFSRTLETAQNSVRVLQKAAITILDGISQYSLRLIDAMMFTSDLATNNLVVMAYITGGVVQLTSQWLTNIFGTVYEKLKPVLDWLEEKFKEGVEFLRDGWEIVKFISTCACEIVGGQIVTCAKEIKESVQTFFKLVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLLMPLKAPKEIIFLEGETLPTEVLTEEVVLKTGDLQPLEQPTSEAVEAPLVGTPVCINGLMLLEIKDTEKYCALAPNMMVTNNTFTLKGGAPTKVTFGDDTVIEVQGYKSVNITFELDERIDKVLNEKCSAYTVELGTEVNEFACVVADAVIKTLQPVSELLTPLGIDLDEWSMATYYLFDESGEFKLASHMYCSFYPPDEDEEEGDCEEEEFEPSTQYEYGTEDDYQGKPLEFGATSAALQPEEEQEEDWLDDDSQQTVGQQDGSEDNQTTTIQTIVEVQPQLEMELTPVVQTIEVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFLEMKSEKQVEQKIAEIPKEEVKPFITESKPSVEQRKQDDKKIKACVEEVTTTLEETKFLTENLLLYIDINGNLHPDSATLVSDIDITFLKKDAPYIVGDVVQEGVLTAVVIPTKKAGGTTEMLAKALRKVPTDNYITTYPGQGLNGYTVEEAKTVLKKCKSAFYILPSIISNEKQEILGTVSWNLREMLAHAEETRKLMPVCVETKAIVSTIQRKYKGIKIQEGVVDYGARFYFYTSKTTVASLINTLNDLNETLVTMPLGYVTHGLNLEEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSSSKTPEEHFIETISLAGSYKDWSYSGQSTQLGIEFLKRGDKSVYYTSNPTTFHLDGEVITFDNLKTLLSLREVRTIKVFTTVDNINLHTQVVDMSMTYGQQFGPTYLDGADVTKIKPHNSHEGKTFYVLPNDDTLRVEAFEYYHTTDPSFLGRYMSALNHTKKWKYPQVNGLTSIKWADNNCYLATALLTLQQIELKFNPPALQDAYYRARAGEAANFCALILAYCNKTVGELGDVRETMSYLFQHANLDSCKRVLNVVCKTCGQQQTTLKGVEAVMYMGTLSYEQFKKGVQIPCTCGKQATKYLVQQESPFVMMSAPPAQYELKHGTFTCASEYTGNYQCGHYKHITSKETLYCIDGALLTKSSEYKGPITDVFYKENSYTTTIKPVTYKLDGVVCTEIDPKLDNYYKKDNSYFTEQPIDLVPNQPYPNASFDNFKFVCDNIKFADDLNQLTGYKKPASRELKVTFFPDLNGDVVAIDYKHYTPSFKKGAKLLHKPIVWHVNNATNKATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEEVVENPTIQKDVLECNVKTTEVVGDIILKPANNSLKITEEVGHTDLMAAYVDNSSLTIKKPNELSRVLGLKTLATHGLAAVNSVPWDTIANYAKPFLNKVVSTTTNIVTRCLNRVCTNYMPYFFTLLLQLCTFTRSTNSRIKASMPTTIAKNTVKSVGKFCLEASFNYLKSPNFSKLINIIIWFLLLSVCLGSLIYSTAALGVLMSNLGMPSYCTGYREGYLNSTNVTIATYCTGSIPCSVCLSGLDSLDTYPSLETIQITISSFKWDLTAFGLVAEWFLAYILFTRFFYVLGLAAIMQLFFSYFAVHFISNSWLMWLIINLVQMAPISAMVRMYIFFASFYYVWKSYVHVVDGCNSSTCMMCYKRNRATRVECTTIVNGVRRSFYVYANGGKGFCKLHNWNCVNCDTFCAGSTFISDEVARDLSLQFKRPINPTDQSSYIVDSVTVKNGSIHLYFDKAGQKTYERHSLSHFVNLDNLRANNTKGSLPINVIVFDGKSKCEESSAKSASVYYSQLMCQPILLLDQALVSDVGDSAEVAVKMFDAYVNTFSSTFNVPMEKLKTLVATAEAELAKNVSLDNVLSTFISAARQGFVDSDVETKDVVECLKLSHQSDIEVTGDSCNNYMLTYNKVENMTPRDLGACIDCSARHINAQVAKSHNIALIWNVKDFMSLSEQLRKQIRSAAKKNNLPFKLTCATTRQVVNVVTTKIALKGGKIVNNWLKQLIKVTLVFLFVAAIFYLITPVHVMSKHTDFSSEIIGYKAIDGGVTRDIASTDTCFANKHADFDTWFSQRGGSYTNDKACPLIAAVITREVGFVVPGLPGTILRTTNGDFLHFLPRVFSAVGNICYTPSKLIEYTDFATSACVLAAECTIFKDASGKPVPYCYDTNVLEGSVAYESLRPDTRYVLMDGSIIQFPNTYLEGSVRVVTTFDSEYCRHGTCERSEAGVCVSTSGRWVLNNDYYRSLPGVFCGVDAVNLLTNMFTPLIQPIGALDISASIVAGGIVAIVVTCLAYYFMRFRRAFGEYSHVVAFNTLLFLMSFTVLCLTPVYSFLPGVYSVIYLYLTFYLTNDVSFLAHIQWMVMFTPLVPFWITIAYIICISTKHFYWFFSNYLKRRVVFNGVSFSTFEEAALCTFLLNKEMYLKLRSDVLLPLTQYNRYLALYNKYKYFSGAMDTTSYREAACCHLAKALNDFSNSGSDVLYQPPQTSITSAVLQSGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQSAVKRTIKGTHHWLLLTILTSLLVLVQSTQWSLFFFLYENAFLPFAMGIIAMSAFAMMFVKHKHAFLCLFLLPSLATVAYFNMVYMPASWVMRIMTWLDMVDTSLSGFKLKDCVMYASAVVLLILMTARTVYDDGARRVWTLMNVLTLVYKVYYGNALDQAISMWALIISVTSNYSGVVTTVMFLARGIVFMCVEYCPIFFITGNTLQCIMLVYCFLGYFCTCYFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKNSIDAFKLNIKLLGVGGKPCIKVATVQSKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFDRDAAMQRKLEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIINNARDGCVPLNIIPLTTAAKLMVVIPDYNTYKNTCDGTTFTYASALWEIQQVVDADSKIVQLSEISMDNSPNLAWPLIVTALRANSAVKLQNNELSPVALRQMSCAAGTTQTACTDDNALAYYNTTKGGRFVLALLSDLQDLKWARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFIKGLNNLNRGMVLGSLAATVRLQAGNATEVPANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPTTCANDPVGFTLKNTVCTVCGMWKGYGCSCDQLREPMLQSADAQSFLNGFAV*",
+    "GU280_gp02": "MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT*",
+    "GU280_gp03": "MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGVALLAVFQSASKIITLKKRWQLALSKGVHFVCNLLLLFVTVYSHLLLVAAGLEAPFLYLYALVYFLQSINFVRIIMRLWLCWKCRSKNPLLYDANYFLCWHTNCYDYCIPYNSVTSSIVITSGDGTTSPISEHDYQIGGYTEKWESGVKDCVVLHSYFTSDYYQLYSTQLSTDTGVEHVTFFIYNKIVDEPEEHVQIHTIDGSSGVVNPVMEPIYDEPTTTTSVPL*",
+    "GU280_gp04": "MYSFVSEETGTLIVNSVLLFLAFVVFLLVTLAILTALRLCAYCCNIVNVSLVKPSFYVYSRVKNLNSSRVPDLLV*",
+    "GU280_gp05": "MADSNGTITVEELKKLLEQWNLVIGFLFLTWICLLQFAYANRNRFLYIIKLIFLWLLWPVTLACFVLAAVYRINWITGGIAIAMACLVGLMWLSYFIASFRLFARTRSMWSFNPETNILLNVPLHGTILTRPLLESELVIGAVILRGHLRIAGHHLGRCDIKDLPKEITVATSRTLSYYKLGASQRVAGDSGFAAYSRYRIGNYKLNTDHSSSSDNIALLVQ*",
+    "GU280_gp06": "MFHLVDFQVTIAEILLIIMRTFKVSIWNLDYIINLIIKNLSKSLTENKYSQLDEEQPMEID*",
+    "GU280_gp07": "MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVSPKLFIRQEEVQELYSPIFLIVAAIVFITLCFTLKRKTE*",
+    "GU280_gp08": "MIELSLIDFYLCFLAFLLFLVLIMLIIFWFSLELQDHNETCHA*",
+    "GU280_gp09": "MKFLVFLGIITTVAAFHQECSLQSCTQHQPYVVDDPCPIHFYSKWYIRVGARKSAPLIELCVDEAGSKSPIQYIDIGNYTVSCLPFTINCQEPKLGSLVVRCSFYEDFLEYHDVRVVLDFI*",
+    "GU280_gp10": "MSDNGPQNQRNAPRITFGGPSDSTGSNQNGERSGARSKQRRPQGLPNNTASWFTALTQHGKEDLKFPRGQGVPINTNSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVATEGALNTPKDHIGTRNPANNAAIVLQLPQGTTLPKGFYAEGSRGGSQASSRSSSRSRNSSRNSTPGSSRGTSPARMAGNGGDAALALLLLDRLNQLESKMSGKGQQQQGQTVTKKSAAEASKKPRQKRTATKAYNVTQAFGRRGPEQTQGNFGDQELIRQGTDYKHWPQIAQFAPSASAFFGMSRIGMEVTPSGTWLTYTGAIKLDDKDPNFKDQVILLNKHIDAYKTFPPTEPKKDKKKKADETQALPQRQKKQQTVTLLPAADLDDFSKQLQQSMSSADSTQA*",
+    "GU280_gp11": "MGYINVFAFPFTIYSLLLCRMNSRNYIAQVDVVNFNLT*"
+  }
+}

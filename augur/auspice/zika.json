@@ -1,0 +1,3282 @@
+{
+  "meta": {
+    "build_url": "https://github.com/nextstrain/zika-tutorial",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "author",
+        "title": "Author",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "Egypt",
+            "#511EA8"
+          ],
+          [
+            "Tunisia",
+            "#4928B4"
+          ],
+          [
+            "Gambia",
+            "#4334BF"
+          ],
+          [
+            "Kenya",
+            "#4041C7"
+          ],
+          [
+            "Somalia",
+            "#3F50CC"
+          ],
+          [
+            "Cameroon",
+            "#3F5ED0"
+          ],
+          [
+            "SouthAfrica",
+            "#416CCE"
+          ],
+          [
+            "Ethiopia",
+            "#4379CD"
+          ],
+          [
+            "Zimbabwe",
+            "#4784C7"
+          ],
+          [
+            "Djibouti",
+            "#4B8FC1"
+          ],
+          [
+            "Libya",
+            "#5098B9"
+          ],
+          [
+            "Benin",
+            "#56A0AF"
+          ],
+          [
+            "SierraLeone",
+            "#5CA7A4"
+          ],
+          [
+            "Uganda",
+            "#63AC99"
+          ],
+          [
+            "Mali",
+            "#6BB18E"
+          ],
+          [
+            "Guinea",
+            "#73B583"
+          ],
+          [
+            "Togo",
+            "#7CB878"
+          ],
+          [
+            "Nigeria",
+            "#86BB6E"
+          ],
+          [
+            "Morocco",
+            "#A4BE56"
+          ],
+          [
+            "Ghana",
+            "#AFBD4F"
+          ],
+          [
+            "Zambia",
+            "#B9BC4A"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [
+      "country",
+      "region",
+      "author"
+    ],
+    "genome_annotations": {
+      "GU280_gp01": {
+        "end": 13483,
+        "seqid": "config/outgroup.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp02": {
+        "end": 25384,
+        "seqid": "config/outgroup.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp03": {
+        "end": 26220,
+        "seqid": "config/outgroup.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp04": {
+        "end": 26472,
+        "seqid": "config/outgroup.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp05": {
+        "end": 27191,
+        "seqid": "config/outgroup.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp06": {
+        "end": 27387,
+        "seqid": "config/outgroup.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp07": {
+        "end": 27759,
+        "seqid": "config/outgroup.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp08": {
+        "end": 27887,
+        "seqid": "config/outgroup.gb",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp09": {
+        "end": 28259,
+        "seqid": "config/outgroup.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp10": {
+        "end": 29533,
+        "seqid": "config/outgroup.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "GU280_gp11": {
+        "end": 29674,
+        "seqid": "config/outgroup.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "config/outgroup.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Benin": {
+            "latitude": 9.668764,
+            "longitude": 2.284078
+          },
+          "Cameroon": {
+            "latitude": 6.0,
+            "longitude": 12.5
+          },
+          "Djibouti": {
+            "latitude": 11.58901,
+            "longitude": 43.14503
+          },
+          "Egypt": {
+            "latitude": 26.2540493,
+            "longitude": 29.2675469
+          },
+          "Ethiopia": {
+            "latitude": 9.0,
+            "longitude": 39.5
+          },
+          "Gambia": {
+            "latitude": 13.5,
+            "longitude": -15.5
+          },
+          "Ghana": {
+            "latitude": 8.0300284,
+            "longitude": -1.080027
+          },
+          "Guinea": {
+            "latitude": 10.7226226,
+            "longitude": -10.7083586
+          },
+          "Kenya": {
+            "latitude": 1.0,
+            "longitude": 38.0
+          },
+          "Mali": {
+            "latitude": 18.0,
+            "longitude": -2.0
+          },
+          "Morocco": {
+            "latitude": 31.1728192,
+            "longitude": -7.3366042
+          },
+          "Nigeria": {
+            "latitude": 10.0,
+            "longitude": 8.0
+          },
+          "Somalia": {
+            "latitude": 8.3676771,
+            "longitude": 49.083416
+          },
+          "Togo": {
+            "latitude": 8.66667,
+            "longitude": 1.08333
+          },
+          "Tunisia": {
+            "latitude": 36.81897,
+            "longitude": 10.16579
+          },
+          "Uganda": {
+            "latitude": 1.5333554,
+            "longitude": 32.2166578
+          },
+          "Zambia": {
+            "latitude": -14.33333,
+            "longitude": 28.5
+          },
+          "Zimbabwe": {
+            "latitude": -19.307486,
+            "longitude": 29.7968377
+          }
+        },
+        "key": "country"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ],
+    "title": "Tutorial Nextstrain build for Zika virus",
+    "updated": "2021-10-10"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "GU280_gp01: G1073V, T1542I, T2007I; GU280_gp02: Q52R, A67V, D215Y, E484K, Q677H, F888L; GU280_gp04: L21F; GU280_gp05: I82T; GU280_gp10: A12G, T205I, R385K, Q386K, Q389K, Q390K"
+          },
+          "mutations": {
+            "GU280_gp01": [
+              "G1073V",
+              "T1542I",
+              "T2007I"
+            ],
+            "GU280_gp02": [
+              "Q52R",
+              "A67V",
+              "D215Y",
+              "E484K",
+              "Q677H",
+              "F888L"
+            ],
+            "GU280_gp04": [
+              "L21F"
+            ],
+            "GU280_gp05": [
+              "I82T"
+            ],
+            "GU280_gp10": [
+              "A12G",
+              "T205I",
+              "R385K",
+              "Q386K",
+              "Q389K",
+              "Q390K"
+            ],
+            "nuc": [
+              "C1498T",
+              "A1807G",
+              "G2659A",
+              "G3483T",
+              "C4890T",
+              "C6285T",
+              "T8593C",
+              "C9565T",
+              "C14407T",
+              "C18171T",
+              "A20724G",
+              "A21717G",
+              "C21762T",
+              "G22205T",
+              "G23012A",
+              "G23593C",
+              "T24224C",
+              "C24748T",
+              "C26305T",
+              "T26767C",
+              "C27011T",
+              "C28308G",
+              "A28699G",
+              "C28887T",
+              "G29422A",
+              "G29425A",
+              "G29427A",
+              "C29429A",
+              "G29431A",
+              "G29434A",
+              "C29438A",
+              "G29440A",
+              "C29441A",
+              "C29548A",
+              "C29550A",
+              "G29553A",
+              "G29554A",
+              "C29555A",
+              "G29557A"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "GU280_gp01: G3578S; GU280_gp02: H1159R; GU280_gp04: S50G; GU280_gp10: Q229H"
+              },
+              "mutations": {
+                "GU280_gp01": [
+                  "G3578S"
+                ],
+                "GU280_gp02": [
+                  "H1159R"
+                ],
+                "GU280_gp04": [
+                  "S50G"
+                ],
+                "GU280_gp10": [
+                  "Q229H"
+                ],
+                "nuc": [
+                  "G10997A",
+                  "A25038G",
+                  "A26392G",
+                  "G28960T"
+                ]
+              }
+            },
+            "name": "MZ150527",
+            "node_attrs": {
+              "accession": "nmimr-SARS-CoV-2-TRA-21-13715",
+              "author": {
+                "author": "Adu,B., Egyir,B., Kumordjie,S., Agbodzi,B., Yeboah,C., Mohktar,Q., Oteng,F., Owusu-Nyantakyi,C., Asare,K.M., Appiah-Kubi,J., Bonney,J.K., Odoom,J.K.",
+                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GHA/nmimr-SARS-CoV-2-TRA-21-13715/2021 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), and ORF8 protein (ORF8) genes, complete cds; and nucleocapsid phosphoprotein (N) gene, partial cds",
+                "value": "Adu,B., Egyir,B., Kumordjie,S., Agbodzi,B., Yeboah,C., Mohktar,Q., Oteng,F., Owusu-Nyantakyi,C., Asare,K.M., Appiah-Kubi,J., Bonney,J.K., Odoom,J.K."
+              },
+              "country": {
+                "confidence": {
+                  "Ghana": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "Ghana"
+              },
+              "div": 0.0012378963448896193,
+              "num_date": {
+                "confidence": [
+                  2021.204109589041,
+                  2021.204109589041
+                ],
+                "value": 2021.204109589041
+              },
+              "url": "https://www.ncbi.nlm.nih.gov"
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C23683T"
+                ]
+              }
+            },
+            "name": "MZ215672",
+            "node_attrs": {
+              "accession": "nmimr-TG-SARS-CoV-2-TGS-057-21",
+              "author": {
+                "author": "Halatoko,A.W., Maman,I., Sadji,Y.A., Kossi,K., Mohktar,Q., Asare,K.M., Salah,D., Layibo,Y., Lamboni,L., Assane,H., Egyir,B., Appiah-Kubi,J., Issa,Z., Awunyo,S., Dorkenoo,A., Bonney,K.J., Salou,M., Dagnran,A., Adu,B.",
+                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/TGO/nmimr-TG-SARS-CoV-2-TGS-057-21/2021 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), and ORF8 protein (ORF8) genes, complete cds; and nucleocapsid phosphoprotein (N) gene, partial cds",
+                "value": "Halatoko,A.W., Maman,I., Sadji,Y.A., Kossi,K., Mohktar,Q., Asare,K.M., Salah,D., Layibo,Y., Lamboni,L., Assane,H., Egyir,B., Appiah-Kubi,J., Issa,Z., Awunyo,S., Dorkenoo,A., Bonney,K.J., Salou,M., Dagnran,A., Adu,B."
+              },
+              "country": {
+                "confidence": {
+                  "Togo": 0.9999999999999999
+                },
+                "entropy": -9.99866855976916e-13,
+                "value": "Togo"
+              },
+              "div": 0.0011374653984660577,
+              "num_date": {
+                "confidence": [
+                  2021.1383561643836,
+                  2021.1383561643836
+                ],
+                "value": 2021.1383561643836
+              },
+              "url": "https://www.ncbi.nlm.nih.gov"
+            }
+          }
+        ],
+        "name": "NODE_0000028",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "Ghana": 0.36264097458736555,
+              "SouthAfrica": 0.025982330023091506,
+              "Togo": 0.400072264799367,
+              "Tunisia": 0.021028292561342126
+            },
+            "entropy": 1.7604940898723866,
+            "value": "Togo"
+          },
+          "div": 0.0011040074547635777,
+          "num_date": {
+            "confidence": [
+              2020.9475606295985,
+              2021.1242150137707
+            ],
+            "value": 2021.0678062487143
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "GU280_gp01: T265I, K1655N, K3353R; GU280_gp02: L18F, D80A, D215G, E484K, N501Y, A701V; GU280_gp03: Q57H, S171L; GU280_gp04: P71L; GU280_gp10: T205I"
+              },
+              "mutations": {
+                "GU280_gp01": [
+                  "T265I",
+                  "K1655N",
+                  "K3353R"
+                ],
+                "GU280_gp02": [
+                  "L18F",
+                  "D80A",
+                  "D215G",
+                  "E484K",
+                  "N501Y",
+                  "A701V"
+                ],
+                "GU280_gp03": [
+                  "Q57H",
+                  "S171L"
+                ],
+                "GU280_gp04": [
+                  "P71L"
+                ],
+                "GU280_gp10": [
+                  "T205I"
+                ],
+                "nuc": [
+                  "G174T",
+                  "C1059T",
+                  "A2692T",
+                  "G5230T",
+                  "A10323G",
+                  "C21614T",
+                  "A21801C",
+                  "A22206G",
+                  "G23012A",
+                  "A23063T",
+                  "C23664T",
+                  "G25563T",
+                  "C25904T",
+                  "C26456T",
+                  "C28253T",
+                  "C28887T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "GU280_gp01: N4358K; GU280_gp03: W131L; GU280_gp07: V93F; GU280_gp10: R32H"
+                  },
+                  "mutations": {
+                    "GU280_gp01": [
+                      "N4358K"
+                    ],
+                    "GU280_gp03": [
+                      "W131L"
+                    ],
+                    "GU280_gp07": [
+                      "V93F"
+                    ],
+                    "GU280_gp10": [
+                      "R32H"
+                    ],
+                    "nuc": [
+                      "C11020T",
+                      "T13339G",
+                      "G25784T",
+                      "G27670T",
+                      "G28368A",
+                      "T29821G"
+                    ]
+                  }
+                },
+                "name": "OK091660",
+                "node_attrs": {
+                  "accession": "KRISP-K005325",
+                  "author": {
+                    "author": "Georgia,S., Kocher,G.",
+                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ZAF/KRISP-K005325/2020, complete genome",
+                    "value": "Georgia,S., Kocher,G."
+                  },
+                  "country": {
+                    "confidence": {
+                      "SouthAfrica": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "SouthAfrica"
+                  },
+                  "div": 0.0008691038694742883,
+                  "num_date": {
+                    "confidence": [
+                      2020.8756830601094,
+                      2020.8756830601094
+                    ],
+                    "value": 2020.8756830601094
+                  },
+                  "url": "https://www.ncbi.nlm.nih.gov"
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "GU280_gp02: K417N"
+                  },
+                  "mutations": {
+                    "GU280_gp02": [
+                      "K417N"
+                    ],
+                    "nuc": [
+                      "G22813T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: P2046L, T2152I, N2596S; GU280_gp02: A67V"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "P2046L",
+                          "T2152I",
+                          "N2596S"
+                        ],
+                        "GU280_gp02": [
+                          "A67V"
+                        ],
+                        "nuc": [
+                          "C6402T",
+                          "C6720T",
+                          "T7624C",
+                          "A8052G",
+                          "G10396T",
+                          "C10615T",
+                          "C17750T",
+                          "C18248T",
+                          "C21762T",
+                          "A29542T"
+                        ]
+                      }
+                    },
+                    "name": "MZ540788",
+                    "node_attrs": {
+                      "accession": "TUN-202136107",
+                      "author": {
+                        "author": "Trabelsi,S., Ben Alaya,N., Ben Sassi,M., Ferjani,S., Abid,S., Safer,M., Ben Othman,R., Chammam,S., Mdini,I., Kacem,I., Kharrat,M., BenKahla,A., Ben Khelil,J., Daghfous,R., Gouider,R., Mahfoudh,R., Boutiba-Ben Boubaker,I.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/TUN/TUN-202136107/2021 ORF1ab polyprotein (ORF1ab) gene, partial cds; ORF1a polyprotein (ORF1ab) gene, complete cds; surface glycoprotein (S) gene, partial cds; ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), and ORF6 protein (ORF6) genes, complete cds; ORF7a protein (ORF7a) and ORF7b (ORF7b) genes, partial cds; ORF8 protein (ORF8) and nucleocapsid phosphoprotein (N) genes, complete cds; and ORF10 protein (ORF10) gene, partial cds",
+                        "value": "Trabelsi,S., Ben Alaya,N., Ben Sassi,M., Ferjani,S., Abid,S., Safer,M., Ben Othman,R., Chammam,S., Mdini,I., Kacem,I., Kharrat,M., BenKahla,A., Ben Khelil,J., Daghfous,R., Gouider,R., Mahfoudh,R., Boutiba-Ben Boubaker,I."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Tunisia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Tunisia"
+                      },
+                      "div": 0.0010366168192244283,
+                      "num_date": {
+                        "confidence": [
+                          2021.4041095890411,
+                          2021.4041095890411
+                        ],
+                        "value": 2021.4041095890411
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: G400C, I2873T, A3523V; GU280_gp03: T151I; GU280_gp10: E378V"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "G400C",
+                          "I2873T",
+                          "A3523V"
+                        ],
+                        "GU280_gp03": [
+                          "T151I"
+                        ],
+                        "GU280_gp10": [
+                          "E378V"
+                        ],
+                        "nuc": [
+                          "C664T",
+                          "G1463T",
+                          "T3256C",
+                          "G7393T",
+                          "T8883C",
+                          "C10833T",
+                          "C17550T",
+                          "C19019A",
+                          "C25844T",
+                          "C26645T",
+                          "A29406T"
+                        ]
+                      }
+                    },
+                    "name": "OK018237",
+                    "node_attrs": {
+                      "accession": "NAMRU3_A175",
+                      "author": {
+                        "author": "Arnold,C.E., Cer,R.Z., Voegtly,L.J., Long,K.A., Stefanov,E.K., Bennett,A.J., Luquette,A.E., Miller,R.H., Malagon,F.J., Estrella,L.A., Glang,L.A., Deschenes,M.V., Watters,C.M., Eggan,S.M., Bishop-Lilly,K.A.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/DJI/NAMRU3_A175/2021 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), ORF8 protein (ORF8), nucleocapsid phosphoprotein (N), and ORF10 protein (ORF10) genes, complete cds",
+                        "value": "Arnold,C.E., Cer,R.Z., Voegtly,L.J., Long,K.A., Stefanov,E.K., Bennett,A.J., Luquette,A.E., Miller,R.H., Malagon,F.J., Estrella,L.A., Glang,L.A., Deschenes,M.V., Watters,C.M., Eggan,S.M., Bishop-Lilly,K.A. A"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Djibouti": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Djibouti"
+                      },
+                      "div": 0.0010697275883935309,
+                      "num_date": {
+                        "confidence": [
+                          2021.3465753424657,
+                          2021.3465753424657
+                        ],
+                        "value": 2021.3465753424657
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  }
+                ],
+                "name": "NODE_0000030",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Djibouti": 0.32661657260393123,
+                      "Morocco": 0.016121708116483353,
+                      "SouthAfrica": 0.10723175572165254,
+                      "Tunisia": 0.38842648992089934
+                    },
+                    "entropy": 1.7874814346190337,
+                    "value": "Tunisia"
+                  },
+                  "div": 0.0007019700621674508,
+                  "num_date": {
+                    "confidence": [
+                      2020.5977051989996,
+                      2020.8991074642536
+                    ],
+                    "value": 2020.7666442109482
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000029",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "Djibouti": 0.11399905977457052,
+                  "Morocco": 0.04145127945193108,
+                  "SouthAfrica": 0.3934675589039421,
+                  "Tunisia": 0.17771072798776497
+                },
+                "entropy": 2.1573029356180444,
+                "value": "SouthAfrica"
+              },
+              "div": 0.0006685537442928776,
+              "num_date": {
+                "confidence": [
+                  2020.507107860687,
+                  2020.7623250337829
+                ],
+                "value": 2020.680198538495
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G21255C",
+                      "C26801G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: R207C; GU280_gp02: T1117I; GU280_gp05: I82T; GU280_gp10: A12G"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "R207C"
+                        ],
+                        "GU280_gp02": [
+                          "T1117I"
+                        ],
+                        "GU280_gp05": [
+                          "I82T"
+                        ],
+                        "GU280_gp10": [
+                          "A12G"
+                        ],
+                        "nuc": [
+                          "C884T",
+                          "A3904T",
+                          "G13126A",
+                          "A18522G",
+                          "C24912T",
+                          "T26767C",
+                          "C28308G"
+                        ]
+                      }
+                    },
+                    "name": "MZ054879",
+                    "node_attrs": {
+                      "accession": "BTRC Libya SARS-CoV-2 WGS-23",
+                      "author": {
+                        "author": "Alhudiri,I.M., Ramadan,A.M., Ibrahim,K.M., Aboud,A.A., El Meshri,S.E., Ebrahim,F.O., Eljilani,M., Salem,M.A., Elgheriani,H.M., Abughnia,E., Efrefer,A.A., Elkikkli,A., Abdusalam,M.M., Dalyoum,T.M., Elbasir,M.O., Abusanina,M.S., Hammud,S., Altabal,S.A., Jallul,M., Belaid,S.M., Ben Elfghi,M., Ruaua,M.A., Al Dwigen,S.M., Salama,B.H., Atwair,W., Kaal,H.H., Ibrahim,K., Abudalla,H., Milad,M.B., Zaghdani,A.A., Eltaib,F.I., Aslougi,A., Elmaghrabi,A., Elzagheid,A.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/LBY/BTRC Libya SARS-CoV-2 WGS-23/2021, complete genome",
+                        "value": "Alhudiri,I.M., Ramadan,A.M., Ibrahim,K.M., Aboud,A.A., El Meshri,S.E., Ebrahim,F.O., Eljilani,M., Salem,M.A., Elgheriani,H.M., Abughnia,E., Efrefer,A.A., Elkikkli,A., Abdusalam,M.M., Dalyoum,T.M., Elbasir,M.O., Abusanina,M.S., Hammud,S., Altabal,S.A., Jallul,M., Belaid,S.M., Ben Elfghi,M., Ruaua,M.A., Al Dwigen,S.M., Salama,B.H., Atwair,W., Kaal,H.H., Ibrahim,K., Abudalla,H., Milad,M.B., Zaghdani,A.A., Eltaib,F.I., Aslougi,A., Elmaghrabi,A., Elzagheid,A."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Libya": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Libya"
+                      },
+                      "div": 0.0005013621699150798,
+                      "num_date": {
+                        "confidence": [
+                          2021.1520547945206,
+                          2021.1520547945206
+                        ],
+                        "value": 2021.1520547945206
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: K1247N, A3623S; GU280_gp02: A222V, K1191N; GU280_gp10: A220V; GU280_gp11: V30L"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "K1247N",
+                          "A3623S"
+                        ],
+                        "GU280_gp02": [
+                          "A222V",
+                          "K1191N"
+                        ],
+                        "GU280_gp10": [
+                          "A220V"
+                        ],
+                        "GU280_gp11": [
+                          "V30L"
+                        ],
+                        "nuc": [
+                          "T445C",
+                          "C683T",
+                          "A2251G",
+                          "G4006T",
+                          "C5170T",
+                          "C6286T",
+                          "G11132T",
+                          "C22227T",
+                          "G25135T",
+                          "T26609C",
+                          "C28932T",
+                          "G29645T",
+                          "A29866C",
+                          "A29869T",
+                          "A29871T",
+                          "A29872C"
+                        ]
+                      }
+                    },
+                    "name": "MW426406",
+                    "node_attrs": {
+                      "accession": "TUN-20203942",
+                      "author": {
+                        "author": "Boutiba-Ben Boubaker,I., Trabelsi,S., Ben Alaya,N., Kharrat,M., Ben Kahla,A., Ben Khelil,J., Abid,S., Ferjani,S., Ben Sassi,M., Safer,M., Hamzaoui,Z., Berrabeh,G., Mrabet,S., ElJebari,H., Gaies,E., Daghfous,R., Gouider,R.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/TUN/TUN-20203942/2020, complete genome",
+                        "value": "Boutiba-Ben Boubaker,I., Trabelsi,S., Ben Alaya,N., Kharrat,M., Ben Kahla,A., Ben Khelil,J., Abid,S., Ferjani,S., Ben Sassi,M., Safer,M., Hamzaoui,Z., Berrabeh,G., Mrabet,S., ElJebari,H., Gaies,E., Daghfous,R., Gouider,R."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Tunisia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Tunisia"
+                      },
+                      "div": 0.00080223653042379,
+                      "num_date": {
+                        "confidence": [
+                          2020.2062841530055,
+                          2020.2062841530055
+                        ],
+                        "value": 2020.2062841530055
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  }
+                ],
+                "name": "NODE_0000011",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Egypt": 0.03482307580818063,
+                      "Libya": 0.31374800442101797,
+                      "Morocco": 0.06958913190812042,
+                      "Tunisia": 0.3606824508470835
+                    },
+                    "entropy": 1.9808851826020049,
+                    "value": "Tunisia"
+                  },
+                  "div": 0.0002673650422078653,
+                  "num_date": {
+                    "confidence": [
+                      2020.022617952038,
+                      2020.095672450298
+                    ],
+                    "value": 2020.0525441646698
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "GU280_gp02: L452R, P681R; GU280_gp03: S26L; GU280_gp07: V82A; GU280_gp10: R203M, D377Y"
+                  },
+                  "mutations": {
+                    "GU280_gp02": [
+                      "L452R",
+                      "P681R"
+                    ],
+                    "GU280_gp03": [
+                      "S26L"
+                    ],
+                    "GU280_gp07": [
+                      "V82A"
+                    ],
+                    "GU280_gp10": [
+                      "R203M",
+                      "D377Y"
+                    ],
+                    "nuc": [
+                      "G210T",
+                      "T22917G",
+                      "C23604G",
+                      "C25469T",
+                      "T27638C",
+                      "G28881T",
+                      "G29402T",
+                      "G29742T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: T1567I, T3646A; GU280_gp02: T95I, G142D, E154K, E484Q, Q1071H; GU280_gp05: I82S"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "T1567I",
+                          "T3646A"
+                        ],
+                        "GU280_gp02": [
+                          "T95I",
+                          "G142D",
+                          "E154K",
+                          "E484Q",
+                          "Q1071H"
+                        ],
+                        "GU280_gp05": [
+                          "I82S"
+                        ],
+                        "nuc": [
+                          "C1348T",
+                          "C3457T",
+                          "C4965T",
+                          "C9430T",
+                          "A11201G",
+                          "G16852T",
+                          "G17523T",
+                          "A20396G",
+                          "T20401G",
+                          "C21846T",
+                          "T21895C",
+                          "G21987A",
+                          "G22022A",
+                          "G23012C",
+                          "A24775T",
+                          "T26307A",
+                          "C26681T",
+                          "T26767G"
+                        ]
+                      }
+                    },
+                    "name": "MZ571142",
+                    "node_attrs": {
+                      "accession": "CNRST-IND2-2021",
+                      "author": {
+                        "author": "melloul,M., Chouati,T., Hemlali,M., Alaoui,S.A., Touil,N., Elannaz,H., Ennibi,K., Youbi,M., Merabet,M., Nourlil,J., Maaroufi,A., El Fahime,E.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MAR/CNRST-IND2-2021/2021, complete genome",
+                        "value": "melloul,M., Chouati,T., Hemlali,M., Alaoui,S.A., Touil,N., Elannaz,H., Ennibi,K., Youbi,M., Merabet,M., Nourlil,J., Maaroufi,A., El Fahime,E."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Morocco": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Morocco"
+                      },
+                      "div": 0.001069815832784842,
+                      "num_date": {
+                        "confidence": [
+                          2021.305479452055,
+                          2021.305479452055
+                        ],
+                        "value": 2021.305479452055
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp02: T19R, T478K, D950N; GU280_gp07: T120I; GU280_gp09: F120L; GU280_gp10: D63G"
+                      },
+                      "mutations": {
+                        "GU280_gp02": [
+                          "T19R",
+                          "T478K",
+                          "D950N"
+                        ],
+                        "GU280_gp07": [
+                          "T120I"
+                        ],
+                        "GU280_gp09": [
+                          "F120L"
+                        ],
+                        "GU280_gp10": [
+                          "D63G"
+                        ],
+                        "nuc": [
+                          "G15451A",
+                          "C16466T",
+                          "C21618G",
+                          "C22995A",
+                          "G24410A",
+                          "C27752T",
+                          "C28253A",
+                          "A28461G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "GU280_gp01: P309L, E1633D, P1640L, H2092Y, P2376L, A3209V, V3718A; GU280_gp02: G142D, R158G, G446V; GU280_gp05: I82T; GU280_gp07: L116F; GU280_gp09: D119E; GU280_gp10: L139F, R385K, Q418L"
+                          },
+                          "mutations": {
+                            "GU280_gp01": [
+                              "P309L",
+                              "E1633D",
+                              "P1640L",
+                              "H2092Y",
+                              "P2376L",
+                              "A3209V",
+                              "V3718A"
+                            ],
+                            "GU280_gp02": [
+                              "G142D",
+                              "R158G",
+                              "G446V"
+                            ],
+                            "GU280_gp05": [
+                              "I82T"
+                            ],
+                            "GU280_gp07": [
+                              "L116F"
+                            ],
+                            "GU280_gp09": [
+                              "D119E"
+                            ],
+                            "GU280_gp10": [
+                              "L139F",
+                              "R385K",
+                              "Q418L"
+                            ],
+                            "nuc": [
+                              "C66T",
+                              "C1191T",
+                              "C1267T",
+                              "G5164T",
+                              "C5184T",
+                              "C6539T",
+                              "C7392T",
+                              "C9319T",
+                              "C9891T",
+                              "T11418C",
+                              "T12946C",
+                              "T14408C",
+                              "G19117T",
+                              "A20262G",
+                              "C20320T",
+                              "G21987A",
+                              "A22034G",
+                              "G22899T",
+                              "C24745T",
+                              "T26767C",
+                              "C27739T",
+                              "T28250A",
+                              "G28690T",
+                              "G29427A",
+                              "A29526T",
+                              "C29535T",
+                              "A29712C"
+                            ]
+                          }
+                        },
+                        "name": "MZ854386",
+                        "node_attrs": {
+                          "accession": "SL25",
+                          "author": {
+                            "author": "Wurie,I., Liu,Y., Lin,L., Campbell,A., Zhang,J., Rogers,J., Campbell,J., Harding,D., Gevao,P.S., Sahr,P.F.",
+                            "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/SLE/SL25/2021 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), and ORF7b (ORF7b) genes, complete cds; ORF8 gene, complete sequence; and nucleocapsid phosphoprotein (N) and ORF10 protein (ORF10) genes, complete cds",
+                            "value": "Wurie,I., Liu,Y., Lin,L., Campbell,A., Zhang,J., Rogers,J., Campbell,J., Harding,D., Gevao,P.S., Sahr,P.F."
+                          },
+                          "country": {
+                            "confidence": {
+                              "SierraLeone": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "SierraLeone"
+                          },
+                          "div": 0.0016384733463613657,
+                          "num_date": {
+                            "confidence": [
+                              2021.4205479452055,
+                              2021.4205479452055
+                            ],
+                            "value": 2021.4205479452055
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "GU280_gp01: A1306S, P2046L, P2287S, T3255I, T3646A; GU280_gp08: T40I; GU280_gp10: G215C"
+                          },
+                          "mutations": {
+                            "GU280_gp01": [
+                              "A1306S",
+                              "P2046L",
+                              "P2287S",
+                              "T3255I",
+                              "T3646A"
+                            ],
+                            "GU280_gp08": [
+                              "T40I"
+                            ],
+                            "GU280_gp10": [
+                              "G215C"
+                            ],
+                            "nuc": [
+                              "G4181T",
+                              "C6402T",
+                              "C7124T",
+                              "C8986T",
+                              "C10029T",
+                              "A11201G",
+                              "A11332G",
+                              "C19220T",
+                              "C27874T",
+                              "G28916T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "GU280_gp01: V2930L, A3571V; GU280_gp03: L71I, G172C; GU280_gp05: I82T"
+                              },
+                              "mutations": {
+                                "GU280_gp01": [
+                                  "V2930L",
+                                  "A3571V"
+                                ],
+                                "GU280_gp03": [
+                                  "L71I",
+                                  "G172C"
+                                ],
+                                "GU280_gp05": [
+                                  "I82T"
+                                ],
+                                "nuc": [
+                                  "G9053T",
+                                  "C10977T",
+                                  "G13249T",
+                                  "C15222T",
+                                  "G16864A",
+                                  "C20946T",
+                                  "T24331C",
+                                  "C25603A",
+                                  "G25906T",
+                                  "C26606T",
+                                  "T26767C"
+                                ]
+                              }
+                            },
+                            "name": "OK348762",
+                            "node_attrs": {
+                              "accession": "SS2359",
+                              "author": {
+                                "author": "Githinji,G., Ochola-Oyier,I.L., Agoti,C.N., Mohammed,K.S., Mburu,M.W., Morobe,J.M., Lambisia,A.W., Makori,T., Ongera,E., Ndwiga,L., de Laurent,Z., Nokes,D.J.",
+                                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/KEN/SS2359/2021 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), and ORF7b (ORF7b) genes, complete cds; ORF8 gene, complete sequence; and nucleocapsid phosphoprotein (N) and ORF10 protein (ORF10) genes, complete cds",
+                                "value": "Githinji,G., Ochola-Oyier,I.L., Agoti,C.N., Mohammed,K.S., Mburu,M.W., Morobe,J.M., Lambisia,A.W., Makori,T., Ongera,E., Ndwiga,L., de Laurent,Z., Nokes,D.J."
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Kenya": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Kenya"
+                              },
+                              "div": 0.0014377989462251144,
+                              "num_date": {
+                                "confidence": [
+                                  2021.7082191780821,
+                                  2021.7082191780821
+                                ],
+                                "value": 2021.7082191780821
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "GU280_gp01: R207C, F685I, V3660M, Q3966H; GU280_gp02: T95I; GU280_gp03: K21N; GU280_gp07: A82V; GU280_gp09: R101H"
+                              },
+                              "mutations": {
+                                "GU280_gp01": [
+                                  "R207C",
+                                  "F685I",
+                                  "V3660M",
+                                  "Q3966H"
+                                ],
+                                "GU280_gp02": [
+                                  "T95I"
+                                ],
+                                "GU280_gp03": [
+                                  "K21N"
+                                ],
+                                "GU280_gp07": [
+                                  "A82V"
+                                ],
+                                "GU280_gp09": [
+                                  "R101H"
+                                ],
+                                "nuc": [
+                                  "C884T",
+                                  "T2318A",
+                                  "A9889G",
+                                  "T9952A",
+                                  "G11243A",
+                                  "G12163T",
+                                  "C12815T",
+                                  "C14898A",
+                                  "C21846T",
+                                  "A23116T",
+                                  "C25452A",
+                                  "G25455C",
+                                  "C27638T",
+                                  "G28195A",
+                                  "T28891G"
+                                ]
+                              }
+                            },
+                            "name": "OK354409",
+                            "node_attrs": {
+                              "accession": "EGY-Wave4-001",
+                              "author": {
+                                "author": "Seadawy,M.G., Armanious,R.M., Gad,A.F., Elnagdy,T.R., Zaher,R., Elnakib,M., Elgohary,M.A., Hassan,W.A., Gad,A., Zahran,M.H., Abuelenein,E.A., Elsafty,A.S., Amer,K.",
+                                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/EGY/EGY-Wave4-001/2021 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), and ORF7b (ORF7b) genes, complete cds; ORF8 gene, complete sequence; and nucleocapsid phosphoprotein (N) and ORF10 protein (ORF10) genes, complete cds",
+                                "value": "Seadawy,M.G., Armanious,R.M., Gad,A.F., Elnagdy,T.R., Zaher,R., Elnakib,M., Elgohary,M.A., Hassan,W.A., Gad,A., Zahran,M.H., Abuelenein,E.A., Elsafty,A.S., Amer,K."
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Egypt": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Egypt"
+                              },
+                              "div": 0.001571345835861268,
+                              "num_date": {
+                                "confidence": [
+                                  2021.5904109589042,
+                                  2021.5904109589042
+                                ],
+                                "value": 2021.5904109589042
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov"
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000021",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Egypt": 0.38355997392362123,
+                              "Kenya": 0.3253479422628759,
+                              "Morocco": 0.043949395381115475,
+                              "SierraLeone": 0.09561000447083198
+                            },
+                            "entropy": 1.8087728465689088,
+                            "value": "Egypt"
+                          },
+                          "div": 0.0010696147848887675,
+                          "num_date": {
+                            "confidence": [
+                              2020.7761018320189,
+                              2021.1510579932235
+                            ],
+                            "value": 2021.0693170070758
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Egypt": 0.16563252106105972,
+                          "Kenya": 0.10771057823384242,
+                          "Morocco": 0.15178293069775237,
+                          "SierraLeone": 0.35434822243756514
+                        },
+                        "entropy": 2.144754484053702,
+                        "value": "SierraLeone"
+                      },
+                      "div": 0.0007353332077262831,
+                      "num_date": {
+                        "confidence": [
+                          2020.3825199091473,
+                          2020.717021859013
+                        ],
+                        "value": 2020.560379995154
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000019",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Egypt": 0.10035475099596518,
+                      "Morocco": 0.4678603047782781,
+                      "SierraLeone": 0.09759147423367204,
+                      "Tunisia": 0.04315045655445986
+                    },
+                    "entropy": 2.10460311354209,
+                    "value": "Morocco"
+                  },
+                  "div": 0.0004679168968731452,
+                  "num_date": {
+                    "confidence": [
+                      2020.1551413341922,
+                      2020.422242642371
+                    ],
+                    "value": 2020.27119728084
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "GU280_gp10: R203K, G204R"
+                  },
+                  "mutations": {
+                    "GU280_gp10": [
+                      "R203K",
+                      "G204R"
+                    ],
+                    "nuc": [
+                      "G28881A",
+                      "G28882A",
+                      "G28883C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: S2103F; GU280_gp03: L46F"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "S2103F"
+                        ],
+                        "GU280_gp03": [
+                          "L46F"
+                        ],
+                        "nuc": [
+                          "C6573T",
+                          "C25528T"
+                        ]
+                      }
+                    },
+                    "name": "MZ040128",
+                    "node_attrs": {
+                      "accession": "GC19-015",
+                      "author": {
+                        "author": "Kanteh,A.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GMB/GC19-015/2020, complete genome",
+                        "value": "Kanteh,A. A"
+                      },
+                      "country": {
+                        "confidence": {
+                          "Gambia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Gambia"
+                      },
+                      "div": 0.00036762745467556834,
+                      "num_date": {
+                        "confidence": [
+                          2020.2090163934427,
+                          2020.2090163934427
+                        ],
+                        "value": 2020.2090163934427
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: T1001I, A1708D, I2230T, S2500F; GU280_gp02: N501Y, A570D, P681H, T716I, S982A, D1118H; GU280_gp09: Q27*, R52I, Y73C; GU280_gp10: D3L, S235F"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "T1001I",
+                          "A1708D",
+                          "I2230T",
+                          "S2500F"
+                        ],
+                        "GU280_gp02": [
+                          "N501Y",
+                          "A570D",
+                          "P681H",
+                          "T716I",
+                          "S982A",
+                          "D1118H"
+                        ],
+                        "GU280_gp09": [
+                          "Q27*",
+                          "R52I",
+                          "Y73C"
+                        ],
+                        "GU280_gp10": [
+                          "D3L",
+                          "S235F"
+                        ],
+                        "nuc": [
+                          "C337T",
+                          "C913T",
+                          "A1168G",
+                          "C3267T",
+                          "C5388A",
+                          "C5986T",
+                          "T6954C",
+                          "C7600T",
+                          "C7764T",
+                          "C11200T",
+                          "C12970T",
+                          "G13201T",
+                          "C14120T",
+                          "C14676T",
+                          "C15279T",
+                          "T16176C",
+                          "T16456C",
+                          "A19722T",
+                          "A23063T",
+                          "C23185T",
+                          "C23271A",
+                          "C23604A",
+                          "C23709T",
+                          "T24506G",
+                          "G24914C",
+                          "C27972T",
+                          "G28048T",
+                          "A28111G",
+                          "G28280C",
+                          "A28281T",
+                          "T28282A",
+                          "C28977T"
+                        ]
+                      }
+                    },
+                    "name": "MZ520070",
+                    "node_attrs": {
+                      "accession": "NAMRU3_Mog_32",
+                      "author": {
+                        "author": "Arnold,C.E., Cer,R.Z., Voegtly,L.J., Long,K.A., Adhikari,B.N., Stefanov,E.K., Bennett,A.J., Luquette,A.E., Malagon,F.J., Estrella,L.A., Deschenes,M.V., Watters,C.M., Eggan,S.M., Bishop-Lilly,K.A.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/SOM/NAMRU3_Mog_32/2021, complete genome",
+                        "value": "Arnold,C.E., Cer,R.Z., Voegtly,L.J., Long,K.A., Adhikari,B.N., Stefanov,E.K., Bennett,A.J., Luquette,A.E., Malagon,F.J., Estrella,L.A., Deschenes,M.V., Watters,C.M., Eggan,S.M., Bishop-Lilly,K.A."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Somalia": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "Somalia"
+                      },
+                      "div": 0.0013713968226182034,
+                      "num_date": {
+                        "confidence": [
+                          2021.1602739726027,
+                          2021.1602739726027
+                        ],
+                        "value": 2021.1602739726027
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C3796T",
+                          "T11725C"
+                        ]
+                      }
+                    },
+                    "name": "MT790522",
+                    "node_attrs": {
+                      "accession": "29",
+                      "author": {
+                        "author": "Simulundu,E., Kapata,N., Mupeta,F., Kapata,P.C., Saasa,N., Changula,K., Muleya,W., Chitanga,S., Chambaro,H., Mubemba,B., Masahiro,K., Chanda,D., Mulenga,L., Fwoloshi,S., Shibemba,A.L., Kapaya,F., Zulu,P., Musonda,K., Monze,M., Sinyange,N., Liwewe,M.M., Kapin'a,M., Chipimo,P.J., Ngosa,W., Morales,A.N., Kayeyi,N., Malama,K., Tembo,J., Bates,M., Sawa,H., Takada,A., Nalubamba,K.S., Mukonka,V., Chilufya,C., Zumla,A.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ZMB/29/2020, complete genome",
+                        "value": "Simulundu,E., Kapata,N., Mupeta,F., Kapata,P.C., Saasa,N., Changula,K., Muleya,W., Chitanga,S., Chambaro,H., Mubemba,B., Masahiro,K., Chanda,D., Mulenga,L., Fwoloshi,S., Shibemba,A.L., Kapaya,F., Zulu,P., Musonda,K., Monze,M., Sinyange,N., Liwewe,M.M., Kapin'a,M., Chipimo,P.J., Ngosa,W., Morales,A.N., Kayeyi,N., Malama,K., Tembo,J., Bates,M., Sawa,H., Takada,A., Nalubamba,K.S., Mukonka,V., Chilufya,C., Zumla,A."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Zambia": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "Zambia"
+                      },
+                      "div": 0.00036762903017576484,
+                      "num_date": {
+                        "confidence": [
+                          2020.2062841530055,
+                          2020.2062841530055
+                        ],
+                        "value": 2020.2062841530055
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C16575T",
+                          "A20374G",
+                          "C29801A"
+                        ]
+                      }
+                    },
+                    "name": "MT994707",
+                    "node_attrs": {
+                      "accession": "NG57839",
+                      "author": {
+                        "author": "Shaibu,J.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/NGA/NG57839/2020, complete genome",
+                        "value": "Shaibu,J."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Nigeria": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Nigeria"
+                      },
+                      "div": 0.0004010573785394653,
+                      "num_date": {
+                        "confidence": [
+                          2020.2226775956285,
+                          2020.2226775956285
+                        ],
+                        "value": 2020.2226775956285
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: L446F, M1378I, P2739L, Y3063S, P3767L; GU280_gp02: L452R, Y1155F, V1228L"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "L446F",
+                          "M1378I",
+                          "P2739L",
+                          "Y3063S",
+                          "P3767L"
+                        ],
+                        "GU280_gp02": [
+                          "L452R",
+                          "Y1155F",
+                          "V1228L"
+                        ],
+                        "nuc": [
+                          "C1601T",
+                          "G4399T",
+                          "C4543T",
+                          "G8179T",
+                          "C8481T",
+                          "C9430T",
+                          "A9453C",
+                          "C11565T",
+                          "C12406T",
+                          "C19170T",
+                          "C19269T",
+                          "G19509A",
+                          "T22917G",
+                          "A25026T",
+                          "G25244T",
+                          "A26927G",
+                          "C28253T"
+                        ]
+                      }
+                    },
+                    "name": "MZ149969",
+                    "node_attrs": {
+                      "accession": "nmimr-TG-SARS-CoV-2-TGS-015-21",
+                      "author": {
+                        "author": "Halatoko,A.W., Maman,I., Sadji,Y.A., Mohktar,Q., Asare,K.M., Kossi,K., Salah,D., Layibo,Y., Kumordjie,S., Agbodzi,B., Appiah-Kubi,J., Lamboni,L., Assane,H., Issa,Z., Awunyo,S., Dorkenoo,A., Bonney,J.K., Salou,M., Dagnran,A., Adu,B.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/TGO/nmimr-TG-SARS-CoV-2-TGS-015-21/2020, complete genome",
+                        "value": "Halatoko,A.W., Maman,I., Sadji,Y.A., Mohktar,Q., Asare,K.M., Kossi,K., Salah,D., Layibo,Y., Kumordjie,S., Agbodzi,B., Appiah-Kubi,J., Lamboni,L., Assane,H., Issa,Z., Awunyo,S., Dorkenoo,A., Bonney,J.K., Salou,M., Dagnran,A., Adu,B."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Togo": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13,
+                        "value": "Togo"
+                      },
+                      "div": 0.0008692409647451246,
+                      "num_date": {
+                        "confidence": [
+                          2020.974043715847,
+                          2020.974043715847
+                        ],
+                        "value": 2020.974043715847
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  }
+                ],
+                "name": "NODE_0000022",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Gambia": 0.16078282891564366,
+                      "Somalia": 0.1595618506047146,
+                      "Togo": 0.22380080298963248,
+                      "Zambia": 0.15956185060470351
+                    },
+                    "entropy": 2.120887333702438,
+                    "value": "Togo"
+                  },
+                  "div": 0.00030078327850022846,
+                  "num_date": {
+                    "confidence": [
+                      2020.1196893503923,
+                      2020.1655685661706
+                    ],
+                    "value": 2020.1406011464862
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "GU280_gp02: G614D"
+                  },
+                  "mutations": {
+                    "GU280_gp02": [
+                      "G614D"
+                    ],
+                    "nuc": [
+                      "T241C",
+                      "T3037C",
+                      "T14408C",
+                      "G23403A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp01: Y241N, I2286R, H2659Q; GU280_gp02: G799D; GU280_gp11: V33D"
+                      },
+                      "mutations": {
+                        "GU280_gp01": [
+                          "Y241N",
+                          "I2286R",
+                          "H2659Q"
+                        ],
+                        "GU280_gp02": [
+                          "G799D"
+                        ],
+                        "GU280_gp11": [
+                          "V33D"
+                        ],
+                        "nuc": [
+                          "T986A",
+                          "A2497T",
+                          "T7122G",
+                          "T8242A",
+                          "G14080A",
+                          "C17304T",
+                          "G19918A",
+                          "A20268G",
+                          "G23958A",
+                          "T23962C",
+                          "G28079T",
+                          "T29655A"
+                        ]
+                      }
+                    },
+                    "name": "OK001876",
+                    "node_attrs": {
+                      "accession": "CCHE57357_W3_A082",
+                      "author": {
+                        "author": "Hatem,A., ElHaddad,A., Abouelnaga,S., Amer,K., Elnaqeeb,M., Hassan,W., Salah,H., ElHalafawy,A., Farawela,H., Saaid,M., Hossam,M., Ismail,J., Almeldin,A., Said,D., Abdelaziz,H., Mansour,T., Shalaby,L., Soliman,S., Hassan,R., Hammad,M., Hussein,S., Abdo,I., Jalal,D., El-Zayat,M., El-Shaqnqery,H., Diab,A., Yahia,A., Samir,O., Magdeldin,S., Sayed,A.",
+                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/EGY/CCHE57357_W3_A082/2021, complete genome",
+                        "value": "Hatem,A., ElHaddad,A., Abouelnaga,S., Amer,K., Elnaqeeb,M., Hassan,W., Salah,H., ElHalafawy,A., Farawela,H., Saaid,M., Hossam,M., Ismail,J., Almeldin,A., Said,D., Abdelaziz,H., Mansour,T., Shalaby,L., Soliman,S., Hassan,R., Hammad,M., Hussein,S., Abdo,I., Jalal,D., El-Zayat,M., El-Shaqnqery,H., Diab,A., Yahia,A., Samir,O., Magdeldin,S., Sayed,A."
+                      },
+                      "country": {
+                        "confidence": {
+                          "Egypt": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Egypt"
+                      },
+                      "div": 0.0007353506590259602,
+                      "num_date": {
+                        "confidence": [
+                          2021.3301369863013,
+                          2021.3301369863013
+                        ],
+                        "value": 2021.3301369863013
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "GU280_gp09: L84S; GU280_gp10: S202N"
+                      },
+                      "mutations": {
+                        "GU280_gp09": [
+                          "L84S"
+                        ],
+                        "GU280_gp10": [
+                          "S202N"
+                        ],
+                        "nuc": [
+                          "C8782T",
+                          "T28144C",
+                          "G28878A",
+                          "G29742A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "GU280_gp01: T814I, M3655I, L3667F; GU280_gp02: V367F, Q613H, A1087S; GU280_gp09: E92K"
+                          },
+                          "mutations": {
+                            "GU280_gp01": [
+                              "T814I",
+                              "M3655I",
+                              "L3667F"
+                            ],
+                            "GU280_gp02": [
+                              "V367F",
+                              "Q613H",
+                              "A1087S"
+                            ],
+                            "GU280_gp09": [
+                              "E92K"
+                            ],
+                            "nuc": [
+                              "C2706T",
+                              "C4573T",
+                              "G11230T",
+                              "G11266T",
+                              "C16575T",
+                              "C22000T",
+                              "G22661T",
+                              "G23401T",
+                              "G24821T",
+                              "G28167A",
+                              "G28378C",
+                              "C29077T",
+                              "C29750T"
+                            ]
+                          }
+                        },
+                        "name": "MZ287350",
+                        "node_attrs": {
+                          "accession": "MAKCHScov6",
+                          "author": {
+                            "author": "Mwesigwa,S., Katagirya,E., Mboowa,G., Kateete,D., Wayengera,M., Nasinghe,E., Katabazi,F., Kigozi,E., Kirimunda,S., Kamulegeya,R., Luutu,M., Lwanga,N., Nsubuga,G., Bagaya,B., Stanley,S., Joloba,M.",
+                            "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/UGA/MAKCHScov6/2020, complete genome",
+                            "value": "Mwesigwa,S., Katagirya,E., Mboowa,G., Kateete,D., Wayengera,M., Nasinghe,E., Katabazi,F., Kigozi,E., Kirimunda,S., Kamulegeya,R., Luutu,M., Lwanga,N., Nsubuga,G., Bagaya,B., Stanley,S., Joloba,M. A"
+                          },
+                          "country": {
+                            "confidence": {
+                              "Uganda": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Uganda"
+                          },
+                          "div": 0.0009025750776753214,
+                          "num_date": {
+                            "confidence": [
+                              2020.7472677595629,
+                              2020.7472677595629
+                            ],
+                            "value": 2020.7472677595629
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G22468T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "GU280_gp03: S171L, H182Y"
+                              },
+                              "mutations": {
+                                "GU280_gp03": [
+                                  "S171L",
+                                  "H182Y"
+                                ],
+                                "nuc": [
+                                  "C853T",
+                                  "C19019T",
+                                  "C25904T",
+                                  "C25936T"
+                                ]
+                              }
+                            },
+                            "name": "MW474741",
+                            "node_attrs": {
+                              "accession": "UCRC 31",
+                              "author": {
+                                "author": "Diarra,B., Kone,A., Guindo,I., Bane,S., Diakite,M., Dao,S., Iknane,A.A., Doumbia,S.",
+                                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MLI/UCRC 31/2020, complete genome",
+                                "value": "Diarra,B., Kone,A., Guindo,I., Bane,S., Diakite,M., Dao,S., Iknane,A.A., Doumbia,S."
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Mali": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Mali"
+                              },
+                              "div": 0.000634962109970129,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2472677595629,
+                                  2020.2472677595629
+                                ],
+                                "value": 2020.2472677595629
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A361G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "GU280_gp01: K292N"
+                                  },
+                                  "mutations": {
+                                    "GU280_gp01": [
+                                      "K292N"
+                                    ],
+                                    "nuc": [
+                                      "G1141T"
+                                    ]
+                                  }
+                                },
+                                "name": "MT653080",
+                                "node_attrs": {
+                                  "accession": "2012",
+                                  "author": {
+                                    "author": "Sander,A.L., Yadouleton,A., Moreira-Soto,A., Tchibozo,C., Hounkanrin,G., Badou,Y., Fischer,C., Krause,N., Akogbeto,P., F de Oliveira Filho,E., Dossou,A., Brunink,S., Drosten,C., Aissi,M.A.J., Harouna Djingarey,M., Hounkpatin,B., Nagel,M., Drexler,J.F., Sander,A.-L.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BEN/2012/2020, complete genome",
+                                    "value": "Sander,A.L., Yadouleton,A., Moreira-Soto,A., Tchibozo,C., Hounkanrin,G., Badou,Y., Fischer,C., Krause,N., Akogbeto,P., F de Oliveira Filho,E., Dossou,A., Brunink,S., Drosten,C., Aissi,M.A.J., Harouna Djingarey,M., Hounkpatin,B., Nagel,M., Drexler,J.F., Sander,A.-L. A"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Benin": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Benin"
+                                  },
+                                  "div": 0.0005681204999624693,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2882513661202,
+                                      2020.2882513661202
+                                    ],
+                                    "value": 2020.2882513661202
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "GU280_gp01: R560C, L2688F"
+                                  },
+                                  "mutations": {
+                                    "GU280_gp01": [
+                                      "R560C",
+                                      "L2688F"
+                                    ],
+                                    "nuc": [
+                                      "C1943T",
+                                      "T5359C",
+                                      "G6337T",
+                                      "C8327T",
+                                      "C11575T",
+                                      "G29449T"
+                                    ]
+                                  }
+                                },
+                                "name": "MW018428",
+                                "node_attrs": {
+                                  "accession": "12371",
+                                  "author": {
+                                    "author": "Fillo,S., Giordani,F., Monte,A., Faggioni,G., De Santis,R., D'Amore,N., Palomba,S., Hamdani,T., Taloa,K., Jumaa,A.B., Bitrou,S., Alaruusi,A., Mad,W., Zorgani,A., Elahmer,O., Annajr,B., Bashein,A., Lista,F., De Sanctis,R., Hamdani,T.N., Taloa,K.A., Belkhir,A.B., Bitrou,S.M., Alaruusi,A.M., Madi,W.Y.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/LBY/12371/2020, complete genome",
+                                    "value": "Fillo,S., Giordani,F., Monte,A., Faggioni,G., De Santis,R., D'Amore,N., Palomba,S., Hamdani,T., Taloa,K., Jumaa,A.B., Bitrou,S., Alaruusi,A., Mad,W., Zorgani,A., Elahmer,O., Annajr,B., Bashein,A., Lista,F., De Sanctis,R., Hamdani,T.N., Taloa,K.A., Belkhir,A.B., Bitrou,S.M., Alaruusi,A.M., Madi,W.Y."
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Libya": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Libya"
+                                  },
+                                  "div": 0.0007352457981573962,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.4267402072774,
+                                      2020.4959016393443
+                                    ],
+                                    "value": 2020.4959016393443
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000003",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "Benin": 0.34375982414107903,
+                                  "Libya": 0.3563364051694928,
+                                  "Mali": 0.1036970477929618,
+                                  "Uganda": 0.036316879365827046
+                                },
+                                "entropy": 1.8323659883335106,
+                                "value": "Libya"
+                              },
+                              "div": 0.0005347003316112783,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1911894176205,
+                                  2020.2748443776456
+                                ],
+                                "value": 2020.2310492852544
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000002",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Benin": 0.11855993668936585,
+                              "Libya": 0.13189081914143333,
+                              "Mali": 0.38265985416883724,
+                              "Uganda": 0.12449824598552084
+                            },
+                            "entropy": 2.1486182948186148,
+                            "value": "Mali"
+                          },
+                          "div": 0.0005012840263208831,
+                          "num_date": {
+                            "confidence": [
+                              2020.1530776768595,
+                              2020.218705964885
+                            ],
+                            "value": 2020.192289720191
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000001",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Egypt": 0.13102250718295883,
+                          "Libya": 0.06216685622780601,
+                          "Mali": 0.12733708967551405,
+                          "Uganda": 0.3846341956129875
+                        },
+                        "entropy": 2.2302708740213726,
+                        "value": "Uganda"
+                      },
+                      "div": 0.00046786728252645445,
+                      "num_date": {
+                        "confidence": [
+                          2020.1288818173102,
+                          2020.2014350831696
+                        ],
+                        "value": 2020.1709060363755
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Egypt": 0.3914536135651475,
+                      "Libya": 0.04822203970643601,
+                      "Morocco": 0.08959714191195299,
+                      "Uganda": 0.11721426433752914
+                    },
+                    "entropy": 2.3117985395289535,
+                    "value": "Egypt"
+                  },
+                  "div": 0.0003341944074521185,
+                  "num_date": {
+                    "confidence": [
+                      2020.0635850395722,
+                      2020.1501583269526
+                    ],
+                    "value": 2020.1222655086776
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C15324T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "GU280_gp01: V2047F, T2648I"
+                          },
+                          "mutations": {
+                            "GU280_gp01": [
+                              "V2047F",
+                              "T2648I"
+                            ],
+                            "nuc": [
+                              "C1684T",
+                              "G6404T",
+                              "C8208T",
+                              "G22363T",
+                              "C29362T"
+                            ]
+                          }
+                        },
+                        "name": "MT731327",
+                        "node_attrs": {
+                          "accession": "RMPS04",
+                          "author": {
+                            "author": "Laamarti,M., Kartti,S., Laamrti,R., Chemao-Elfihri,M.W., Allam,L., Ouadghiri,M., Smyej,I., Rahoui,J., Benrahma,H., El Atar,J., Diawara,I., El Jaoudi,R., Sbabou,L., Nejjari,C., Amzazi,S., Mentag,R., Belyamani,L., Ibrahimi,A.",
+                            "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MAR/RMPS04/2020, complete genome",
+                            "value": "Laamarti,M., Kartti,S., Laamrti,R., Chemao-Elfihri,M.W., Allam,L., Ouadghiri,M., Smyej,I., Rahoui,J., Benrahma,H., El Atar,J., Diawara,I., El Jaoudi,R., Sbabou,L., Nejjari,C., Amzazi,S., Mentag,R., Belyamani,L., Ibrahimi,A."
+                          },
+                          "country": {
+                            "confidence": {
+                              "Morocco": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Morocco"
+                          },
+                          "div": 0.0004010409770369437,
+                          "num_date": {
+                            "confidence": [
+                              2020.2445355191257,
+                              2020.2445355191257
+                            ],
+                            "value": 2020.2445355191257
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "GU280_gp01: L3796F; GU280_gp05: L206V, N207D"
+                          },
+                          "mutations": {
+                            "GU280_gp01": [
+                              "L3796F"
+                            ],
+                            "GU280_gp05": [
+                              "L206V",
+                              "N207D"
+                            ],
+                            "nuc": [
+                              "C11651T",
+                              "A23128C",
+                              "T27138G",
+                              "A27141G"
+                            ]
+                          }
+                        },
+                        "name": "MW566800",
+                        "node_attrs": {
+                          "accession": "1958-CMR-YAO",
+                          "author": {
+                            "author": "Njouom,R., Sadeuh-Mba,S.A.",
+                            "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/CMR/1958-CMR-YAO/2020 ORF1ab polyprotein (ORF1ab) gene, complete cds; ORF1a polyprotein (ORF1ab) gene, partial cds; surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), and ORF6 protein (ORF6) genes, complete cds; ORF7a protein (ORF7a) and ORF7b (ORF7b) genes, partial cds; and ORF8 protein (ORF8), nucleocapsid phosphoprotein (N), and ORF10 protein (ORF10) genes, complete cds",
+                            "value": "Njouom,R., Sadeuh-Mba,S.A."
+                          },
+                          "country": {
+                            "confidence": {
+                              "Cameroon": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Cameroon"
+                          },
+                          "div": 0.0003679174125928743,
+                          "num_date": {
+                            "confidence": [
+                              2020.1789617486338,
+                              2020.1789617486338
+                            ],
+                            "value": 2020.1789617486338
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov"
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "GU280_gp02: E583D"
+                              },
+                              "mutations": {
+                                "GU280_gp02": [
+                                  "E583D"
+                                ],
+                                "nuc": [
+                                  "G23311T",
+                                  "C29200T"
+                                ]
+                              }
+                            },
+                            "name": "MT653071",
+                            "node_attrs": {
+                              "accession": "197",
+                              "author": {
+                                "author": "Sander,A.L., Yadouleton,A., Moreira-Soto,A., Tchibozo,C., Hounkanrin,G., Badou,Y., Fischer,C., Krause,N., Akogbeto,P., F de Oliveira Filho,E., Dossou,A., Brunink,S., Drosten,C., Aissi,M.A.J., Harouna Djingarey,M., Hounkpatin,B., Nagel,M., Drexler,J.F., Sander,A.-L.",
+                                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/BEN/197/2020, complete genome",
+                                "value": "Sander,A.L., Yadouleton,A., Moreira-Soto,A., Tchibozo,C., Hounkanrin,G., Badou,Y., Fischer,C., Krause,N., Akogbeto,P., F de Oliveira Filho,E., Dossou,A., Brunink,S., Drosten,C., Aissi,M.A.J., Harouna Djingarey,M., Hounkpatin,B., Nagel,M., Drexler,J.F., Sander,A.-L. B"
+                              },
+                              "country": {
+                                "confidence": {
+                                  "Benin": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Benin"
+                              },
+                              "div": 0.0003007946269857118,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2035519125684,
+                                  2020.2035519125684
+                                ],
+                                "value": 2020.2035519125684
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T10561C"
+                                    ]
+                                  }
+                                },
+                                "name": "MT890205",
+                                "node_attrs": {
+                                  "accession": "1659_S14",
+                                  "author": {
+                                    "author": "Ngoi,J.M., Quashie,P., Morang'a,C.M., Amuzu,D.S., Adu,B., Kumordjie,S., Eshun,M., Boatemaa,L., Magnussen,V., Kotey,E., Tei-Maya,F., Arjarquah,A., Mutungi,J.K., Bediako,Y., Asante,I., Bonney,E., Kyei,G.B., Bonney,K., Amenga-Etego,L.N., Anang,A.K., Awandare,G.A., Ampofo,W.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GHA/1659_S14/2020 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), ORF8 protein (ORF8), nucleocapsid phosphoprotein (N), and ORF10 protein (ORF10) genes, complete cds",
+                                    "value": "Ngoi,J.M., Quashie,P., Morang'a,C.M., Amuzu,D.S., Adu,B., Kumordjie,S., Eshun,M., Boatemaa,L., Magnussen,V., Kotey,E., Tei-Maya,F., Arjarquah,A., Mutungi,J.K., Bediako,Y., Asante,I., Bonney,E., Kyei,G.B., Bonney,K., Amenga-Etego,L.N., Anang,A.K., Awandare,G.A., Ampofo,W."
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Ghana": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Ghana"
+                                  },
+                                  "div": 0.0002673566198816598,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.23087431694,
+                                      2020.23087431694
+                                    ],
+                                    "value": 2020.23087431694
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T13596A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "GU280_gp01: S538T, L1762P, T3308I"
+                                      },
+                                      "mutations": {
+                                        "GU280_gp01": [
+                                          "S538T",
+                                          "L1762P",
+                                          "T3308I"
+                                        ],
+                                        "nuc": [
+                                          "T1877A",
+                                          "T5550C",
+                                          "C10188T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "MZ619091",
+                                    "node_attrs": {
+                                      "accession": "C1",
+                                      "author": {
+                                        "author": "Krasnov,Y.M., Kritsky,A.A., Keita,M., Keita,S., Fedorov,A.V., Katyshev,A.D., Naryshkina,E.A., Sosedova,E.A., Kazorina,E.V., Shcherbakova,S.A., Kutyrev,V.V.",
+                                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GIN/C1/2020 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), and ORF8 protein (ORF8) genes, complete cds",
+                                        "value": "Krasnov,Y.M., Kritsky,A.A., Keita,M., Keita,S., Fedorov,A.V., Katyshev,A.D., Naryshkina,E.A., Sosedova,E.A., Kazorina,E.V., Shcherbakova,S.A., Kutyrev,V.V. A"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Guinea": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Guinea"
+                                      },
+                                      "div": 0.00036786155705575247,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.3674863387978,
+                                          2020.3674863387978
+                                        ],
+                                        "value": 2020.3674863387978
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov"
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "GU280_gp06: E55*; GU280_gp10: R95H"
+                                      },
+                                      "mutations": {
+                                        "GU280_gp06": [
+                                          "E55*"
+                                        ],
+                                        "GU280_gp10": [
+                                          "R95H"
+                                        ],
+                                        "nuc": [
+                                          "T19839C",
+                                          "G27364T",
+                                          "G28557A"
+                                        ]
+                                      }
+                                    },
+                                    "name": "MZ622025",
+                                    "node_attrs": {
+                                      "accession": "C2",
+                                      "author": {
+                                        "author": "Krasnov,Y.M., Kritsky,A.A., Keita,M., Keita,S., Fedorov,A.V., Katyshev,A.D., Naryshkina,E.A., Sosedova,E.A., Kazorina,E.V., Shcherbakova,S.A., Kutyrev,V.V.",
+                                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GIN/C2/2020, complete genome",
+                                        "value": "Krasnov,Y.M., Kritsky,A.A., Keita,M., Keita,S., Fedorov,A.V., Katyshev,A.D., Naryshkina,E.A., Sosedova,E.A., Kazorina,E.V., Shcherbakova,S.A., Kutyrev,V.V. B"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Guinea": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Guinea"
+                                      },
+                                      "div": 0.00036765062930409556,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.3647540983607,
+                                          2020.3647540983607
+                                        ],
+                                        "value": 2020.3647540983607
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov"
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000035",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Benin": 0.0036288500152809105,
+                                      "Ghana": 0.011382141665975395,
+                                      "Guinea": 0.967659950023909,
+                                      "Morocco": 0.001904112001691339
+                                    },
+                                    "entropy": 0.22296095364426405,
+                                    "value": "Guinea"
+                                  },
+                                  "div": 0.0002673571538055677,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1582491886286,
+                                      2020.2904452687255
+                                    ],
+                                    "value": 2020.2282668922473
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000023",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "Benin": 0.10417837988779739,
+                                  "Ghana": 0.3444090035731885,
+                                  "Guinea": 0.3175153893911356,
+                                  "Morocco": 0.04495692005618716
+                                },
+                                "entropy": 1.944591641718177,
+                                "value": "Ghana"
+                              },
+                              "div": 0.0002339389657539338,
+                              "num_date": {
+                                "confidence": [
+                                  2020.0992404939482,
+                                  2020.2179051073529
+                                ],
+                                "value": 2020.175778789451
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000018",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Benin": 0.36281278556440655,
+                              "Ghana": 0.11142541878605128,
+                              "Guinea": 0.09908524284595711,
+                              "Morocco": 0.14496768050529701
+                            },
+                            "entropy": 2.1910257134316122,
+                            "value": "Benin"
+                          },
+                          "div": 0.00023393896575392862,
+                          "num_date": {
+                            "confidence": [
+                              2020.0986417101465,
+                              2020.1766797951893
+                            ],
+                            "value": 2020.1356582794224
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000031",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Benin": 0.07536586904221307,
+                          "Cameroon": 0.25363716646603995,
+                          "Ghana": 0.027367089747246588,
+                          "Morocco": 0.44101989760365845
+                        },
+                        "entropy": 1.8836743541379333,
+                        "value": "Morocco"
+                      },
+                      "div": 0.00023393896575392344,
+                      "num_date": {
+                        "confidence": [
+                          2020.0669984601088,
+                          2020.1469356277025
+                        ],
+                        "value": 2020.1238601783225
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C13620T",
+                                  "C21595T"
+                                ]
+                              }
+                            },
+                            "name": "MT324062",
+                            "node_attrs": {
+                              "accession": "R03006",
+                              "author": {
+                                "author": "Allam,M., Ismail,A., Khumalo,Z.T.H., Kwenda,S., van Heusden,P., Cloete,R., Wibmer,C.K., Mohale,T., Subramoney,K., Mtshali,P.S., Mnyameni,F., Walaza,S., Ngubane,W., Govender,N., Motaze,N.V., Bhiman,J.N.",
+                                "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ZAF/R03006/2020, complete genome",
+                                "value": "Allam,M., Ismail,A., Khumalo,Z.T.H., Kwenda,S., van Heusden,P., Cloete,R., Wibmer,C.K., Mohale,T., Subramoney,K., Mtshali,P.S., Mnyameni,F., Walaza,S., Ngubane,W., Govender,N., Motaze,N.V., Bhiman,J.N."
+                              },
+                              "country": {
+                                "confidence": {
+                                  "SouthAfrica": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "SouthAfrica"
+                              },
+                              "div": 0.00026735728891523513,
+                              "num_date": {
+                                "confidence": [
+                                  2020.181693989071,
+                                  2020.181693989071
+                                ],
+                                "value": 2020.181693989071
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "GU280_gp02: N481K; GU280_gp10: S194L"
+                                  },
+                                  "mutations": {
+                                    "GU280_gp02": [
+                                      "N481K"
+                                    ],
+                                    "GU280_gp10": [
+                                      "S194L"
+                                    ],
+                                    "nuc": [
+                                      "T18920C",
+                                      "A20268G",
+                                      "C21005T",
+                                      "T23005A",
+                                      "C28854T"
+                                    ]
+                                  }
+                                },
+                                "name": "LR963451",
+                                "node_attrs": {
+                                  "accession": "ZW-9494",
+                                  "author": {
+                                    "author": "Alikhan,N.-F., Page,A., Le Viet,T., Telatin,A., De Oliveira Martins,L., Ansorge,R., Bastkowski,S.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate ZW-9494 genome assembly, chromosome: 1",
+                                    "value": "Alikhan,N.-F., Page,A., Le Viet,T., Telatin,A., De Oliveira Martins,L., Ansorge,R., Bastkowski,S. A"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Zimbabwe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Zimbabwe"
+                                  },
+                                  "div": 0.00036764555304998883,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.4166666666667,
+                                      2020.4166666666667
+                                    ],
+                                    "value": 2020.4166666666667
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "MW751124",
+                                    "node_attrs": {
+                                      "accession": "C22",
+                                      "author": {
+                                        "author": "Githinji,G., de Laurent,Z.R., Mohamed,K.S., Omuoyo,D.O., Macharia,P.M., Morobe,J.M., Otieno,E., Kinyanjui,S.M., Agweyu,A., Maitha,E., Kitole,B., Suleiman,T., Mwakinangu,M., Nyambu,J., Otieno,J., Salim,B., Kasera,K., Kiiru,J., Aman,R., Barasa,E., Warimwe,G., Bejon,P., Tsofa,B., Ochola-Oyier,L.I., Nokes,D.J., Agoti,C.N., deLaurent,Z.R.",
+                                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/KEN/C22/2020 ORF1ab polyprotein (ORF1ab) gene, complete cds; ORF1a polyprotein (ORF1ab) gene, partial cds; and surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), ORF8 protein (ORF8), nucleocapsid phosphoprotein (N), and ORF10 protein (ORF10) genes, complete cds",
+                                        "value": "Githinji,G., de Laurent,Z.R., Mohamed,K.S., Omuoyo,D.O., Macharia,P.M., Morobe,J.M., Otieno,E., Kinyanjui,S.M., Agweyu,A., Maitha,E., Kitole,B., Suleiman,T., Mwakinangu,M., Nyambu,J., Otieno,J., Salim,B., Kasera,K., Kiiru,J., Aman,R., Barasa,E., Warimwe,G., Bejon,P., Tsofa,B., Ochola-Oyier,L.I., Nokes,D.J., Agoti,C.N., deLaurent,Z.R."
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Kenya": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Kenya"
+                                      },
+                                      "div": 0.00020052249468275593,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2090163934427,
+                                          2020.2090163934427
+                                        ],
+                                        "value": 2020.2090163934427
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov"
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "GU280_gp01: A1092T, Q1592R, T1840I; GU280_gp10: P142A, D402Y; GU280_gp11: S23F"
+                                      },
+                                      "mutations": {
+                                        "GU280_gp01": [
+                                          "A1092T",
+                                          "Q1592R",
+                                          "T1840I"
+                                        ],
+                                        "GU280_gp10": [
+                                          "P142A",
+                                          "D402Y"
+                                        ],
+                                        "GU280_gp11": [
+                                          "S23F"
+                                        ],
+                                        "nuc": [
+                                          "G3539A",
+                                          "A5040G",
+                                          "C5497T",
+                                          "C5784T",
+                                          "C16329T",
+                                          "C16887T",
+                                          "C17676T",
+                                          "G19872T",
+                                          "C20930T",
+                                          "C28697G",
+                                          "G29477T",
+                                          "C29625T",
+                                          "C29774T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "MZ287361",
+                                    "node_attrs": {
+                                      "accession": "MAKCHScov7",
+                                      "author": {
+                                        "author": "Mwesigwa,S., Katagirya,E., Mboowa,G., Kateete,D., Wayengera,M., Nasinghe,E., Katabazi,F., Kigozi,E., Kirimunda,S., Kamulegeya,R., Luutu,M., Lwanga,N., Nsubuga,G., Bagaya,B., Stanley,S., Joloba,M.",
+                                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/UGA/MAKCHScov7/2021, complete genome",
+                                        "value": "Mwesigwa,S., Katagirya,E., Mboowa,G., Kateete,D., Wayengera,M., Nasinghe,E., Katabazi,F., Kigozi,E., Kirimunda,S., Kamulegeya,R., Luutu,M., Lwanga,N., Nsubuga,G., Bagaya,B., Stanley,S., Joloba,M. B"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Uganda": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "Uganda"
+                                      },
+                                      "div": 0.000635177179729745,
+                                      "num_date": {
+                                        "confidence": [
+                                          2021.1356164383562,
+                                          2021.1356164383562
+                                        ],
+                                        "value": 2021.1356164383562
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov"
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000034",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Kenya": 0.3396514638095939,
+                                      "SouthAfrica": 0.03769502211309925,
+                                      "Uganda": 0.3426303445330282,
+                                      "Zimbabwe": 0.12654971246373345
+                                    },
+                                    "entropy": 1.8401831241799107,
+                                    "value": "Uganda"
+                                  },
+                                  "div": 0.00020052249468275075,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1553130969055,
+                                      2020.2090163934427
+                                    ],
+                                    "value": 2020.2090163934427
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000033",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "Kenya": 0.10228212067908492,
+                                  "SouthAfrica": 0.12682345108419726,
+                                  "Uganda": 0.104445422976021,
+                                  "Zimbabwe": 0.471445402802854
+                                },
+                                "entropy": 1.9510897218925265,
+                                "value": "Zimbabwe"
+                              },
+                              "div": 0.00020052249468274557,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1132904593542,
+                                  2020.2055016086642
+                                ],
+                                "value": 2020.155792741538
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000032",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Ethiopia": 0.042879093420632355,
+                              "SouthAfrica": 0.38550597898640837,
+                              "Uganda": 0.042221719859362544,
+                              "Zimbabwe": 0.253836545006794
+                            },
+                            "entropy": 2.08658592886734,
+                            "value": "SouthAfrica"
+                          },
+                          "div": 0.0002005224946827404,
+                          "num_date": {
+                            "confidence": [
+                              2020.0855907350062,
+                              2020.1596597254718
+                            ],
+                            "value": 2020.1277656189554
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "GU280_gp03: Q57H"
+                          },
+                          "mutations": {
+                            "GU280_gp03": [
+                              "Q57H"
+                            ],
+                            "nuc": [
+                              "G25563T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "GU280_gp01: T265I"
+                              },
+                              "mutations": {
+                                "GU280_gp01": [
+                                  "T265I"
+                                ],
+                                "nuc": [
+                                  "C1059T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T212A"
+                                    ]
+                                  }
+                                },
+                                "name": "LR963402",
+                                "node_attrs": {
+                                  "accession": "ZW-25",
+                                  "author": {
+                                    "author": "Alikhan,N.-F., Page,A., Le Viet,T., Telatin,A., De Oliveira Martins,L., Ansorge,R., Bastkowski,S.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate ZW-25 genome assembly, chromosome: 1",
+                                    "value": "Alikhan,N.-F., Page,A., Le Viet,T., Telatin,A., De Oliveira Martins,L., Ansorge,R., Bastkowski,S. B"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Zimbabwe": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Zimbabwe"
+                                  },
+                                  "div": 0.00030079088982547106,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1653005464482,
+                                      2020.1653005464482
+                                    ],
+                                    "value": 2020.1653005464482
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "GU280_gp02: D936Y"
+                                      },
+                                      "mutations": {
+                                        "GU280_gp02": [
+                                          "D936Y"
+                                        ],
+                                        "nuc": [
+                                          "C14576T",
+                                          "G24368T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "OK018220",
+                                    "node_attrs": {
+                                      "accession": "NAMRU3_004",
+                                      "author": {
+                                        "author": "Arnold,C.E., Cer,R.Z., Voegtly,L.J., Long,K.A., Stefanov,E.K., Bennett,A.J., Luquette,A.E., Miller,R.H., Malagon,F.J., Estrella,L.A., Glang,L.A., Deschenes,M.V., Watters,C.M., Eggan,S.M., Bishop-Lilly,K.A.",
+                                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/DJI/NAMRU3_004/2020 ORF1ab polyprotein (ORF1ab), ORF1a polyprotein (ORF1ab), surface glycoprotein (S), ORF3a protein (ORF3a), envelope protein (E), membrane glycoprotein (M), ORF6 protein (ORF6), ORF7a protein (ORF7a), ORF7b (ORF7b), ORF8 protein (ORF8), nucleocapsid phosphoprotein (N), and ORF10 protein (ORF10) genes, complete cds",
+                                        "value": "Arnold,C.E., Cer,R.Z., Voegtly,L.J., Long,K.A., Stefanov,E.K., Bennett,A.J., Luquette,A.E., Miller,R.H., Malagon,F.J., Estrella,L.A., Glang,L.A., Deschenes,M.V., Watters,C.M., Eggan,S.M., Bishop-Lilly,K.A. B"
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "Djibouti": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13,
+                                        "value": "Djibouti"
+                                      },
+                                      "div": 0.0003342294801786116,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.389344262295,
+                                          2020.389344262295
+                                        ],
+                                        "value": 2020.389344262295
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov"
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "GU280_gp01: A1397S"
+                                      },
+                                      "mutations": {
+                                        "GU280_gp01": [
+                                          "A1397S"
+                                        ],
+                                        "nuc": [
+                                          "G4454T",
+                                          "A20755C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "MT872497",
+                                    "node_attrs": {
+                                      "accession": "KGH-G-8548",
+                                      "author": {
+                                        "author": "Goba,A., Momoh,M., Sandi,J., Tomkins-Tinch,C., Siddle,K., Mehta,S., Oluniyi,P., Jalloh,S., Park,D., Sabeti,P., Andersen,K., Garry,R., Happi,C., Grant,D., Olawoye,I.",
+                                        "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/SLE/KGH-G-8548/2020, complete genome",
+                                        "value": "Goba,A., Momoh,M., Sandi,J., Tomkins-Tinch,C., Siddle,K., Mehta,S., Oluniyi,P., Jalloh,S., Park,D., Sabeti,P., Andersen,K., Garry,R., Happi,C., Grant,D., Olawoye,I."
+                                      },
+                                      "country": {
+                                        "confidence": {
+                                          "SierraLeone": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12,
+                                        "value": "SierraLeone"
+                                      },
+                                      "div": 0.00033419257972400673,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2445355191257,
+                                          2020.2445355191257
+                                        ],
+                                        "value": 2020.2445355191257
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov"
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000037",
+                                "node_attrs": {
+                                  "country": {
+                                    "confidence": {
+                                      "Djibouti": 0.3418601529254528,
+                                      "Ethiopia": 0.029998102584148936,
+                                      "SierraLeone": 0.3439420397768601,
+                                      "Zimbabwe": 0.12573241182054581
+                                    },
+                                    "entropy": 1.8384008709352164,
+                                    "value": "SierraLeone"
+                                  },
+                                  "div": 0.00026735523637097676,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1385022066365,
+                                      2020.211988829681
+                                    ],
+                                    "value": 2020.160599981058
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000013",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "Djibouti": 0.10705934976563826,
+                                  "Ethiopia": 0.10129367196344322,
+                                  "SierraLeone": 0.1086495290539513,
+                                  "Zimbabwe": 0.46792582577473
+                                },
+                                "entropy": 1.994684505053622,
+                                "value": "Zimbabwe"
+                              },
+                              "div": 0.0002673552363709716,
+                              "num_date": {
+                                "confidence": [
+                                  2020.128932965739,
+                                  2020.1635901931998
+                                ],
+                                "value": 2020.1505014800807
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C2416T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "GU280_gp01: T224I, F679L; GU280_gp02: R78S, D80Y, Q836H; GU280_gp07: E92K; GU280_gp10: P199L"
+                                  },
+                                  "mutations": {
+                                    "GU280_gp01": [
+                                      "T224I",
+                                      "F679L"
+                                    ],
+                                    "GU280_gp02": [
+                                      "R78S",
+                                      "D80Y",
+                                      "Q836H"
+                                    ],
+                                    "GU280_gp07": [
+                                      "E92K"
+                                    ],
+                                    "GU280_gp10": [
+                                      "P199L"
+                                    ],
+                                    "nuc": [
+                                      "C140T",
+                                      "C936T",
+                                      "T2300C",
+                                      "A3643G",
+                                      "C14407T",
+                                      "C14925T",
+                                      "G16647T",
+                                      "G21796T",
+                                      "G21800T",
+                                      "A24070C",
+                                      "G27667A",
+                                      "C28869T",
+                                      "C29550T"
+                                    ]
+                                  }
+                                },
+                                "name": "MZ172409",
+                                "node_attrs": {
+                                  "accession": "AH-003",
+                                  "author": {
+                                    "author": "Alemayehu,D.H., Adnew,B., Alemu,F., Tefera,D.A., Seyoum,T., Beyene,G.T., Gelanew,T., Negash,A.A., Abebe,M., Mihrete,A., Bayih,A.G., Abdissa,A., Mulu,A.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ETH/AH-003/2020, complete genome",
+                                    "value": "Alemayehu,D.H., Adnew,B., Alemu,F., Tefera,D.A., Seyoum,T., Beyene,G.T., Gelanew,T., Negash,A.A., Abebe,M., Mihrete,A., Bayih,A.G., Abdissa,A., Mulu,A."
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Ethiopia": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Ethiopia"
+                                  },
+                                  "div": 0.0007019094871602986,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.8592896174864,
+                                      2020.8592896174864
+                                    ],
+                                    "value": 2020.8592896174864
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "GU280_gp01: Q2702H"
+                                  },
+                                  "mutations": {
+                                    "GU280_gp01": [
+                                      "Q2702H"
+                                    ],
+                                    "nuc": [
+                                      "G8371T"
+                                    ]
+                                  }
+                                },
+                                "name": "MZ040130",
+                                "node_attrs": {
+                                  "accession": "GC19-029",
+                                  "author": {
+                                    "author": "Kanteh,A.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/GMB/GC19-029/2020, complete genome",
+                                    "value": "Kanteh,A. B"
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Gambia": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Gambia"
+                                  },
+                                  "div": 0.00030077605009897385,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.301912568306,
+                                      2020.301912568306
+                                    ],
+                                    "value": 2020.301912568306
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "GU280_gp01: L204F, S1087A, V1339I, S3547G; GU280_gp02: N501Y, M1229I; GU280_gp09: W45C; GU280_gp10: S194L, D377Y"
+                                  },
+                                  "mutations": {
+                                    "GU280_gp01": [
+                                      "L204F",
+                                      "S1087A",
+                                      "V1339I",
+                                      "S3547G"
+                                    ],
+                                    "GU280_gp02": [
+                                      "N501Y",
+                                      "M1229I"
+                                    ],
+                                    "GU280_gp09": [
+                                      "W45C"
+                                    ],
+                                    "GU280_gp10": [
+                                      "S194L",
+                                      "D377Y"
+                                    ],
+                                    "nuc": [
+                                      "C875T",
+                                      "T3524G",
+                                      "G4280A",
+                                      "T7534C",
+                                      "G8881A",
+                                      "C9724T",
+                                      "G9871T",
+                                      "A10904G",
+                                      "G15384T",
+                                      "A17066G",
+                                      "A23063T",
+                                      "G25249T",
+                                      "A26927G",
+                                      "C27889T",
+                                      "G28028T",
+                                      "C28854T",
+                                      "G29402T"
+                                    ]
+                                  }
+                                },
+                                "name": "MW703381",
+                                "node_attrs": {
+                                  "accession": "61164_S2_L001_1",
+                                  "author": {
+                                    "author": "Weldemariam,A.G., Vanaerschot,M., Abichu,G., Kidane,E., Damena,D., Tessema,S.K., Gutema,G., Ahyong,V., Detweiler,A., Tan,M., Neff,N., Fahsbender,E., Kalantar,K., Leta,D., Tato,C.",
+                                    "title": "Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ETH/61164_S2_L001_1/2020, complete genome",
+                                    "value": "Weldemariam,A.G., Vanaerschot,M., Abichu,G., Kidane,E., Damena,D., Tessema,S.K., Gutema,G., Ahyong,V., Detweiler,A., Tan,M., Neff,N., Fahsbender,E., Kalantar,K., Leta,D., Tato,C."
+                                  },
+                                  "country": {
+                                    "confidence": {
+                                      "Ethiopia": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Ethiopia"
+                                  },
+                                  "div": 0.0008358749881097838,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.9685792349726,
+                                      2020.9685792349726
+                                    ],
+                                    "value": 2020.9685792349726
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov"
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000015",
+                            "node_attrs": {
+                              "country": {
+                                "confidence": {
+                                  "Ethiopia": 0.9382800524684405,
+                                  "Gambia": 0.03929875846727654,
+                                  "SouthAfrica": 0.0018958091867978509,
+                                  "Zimbabwe": 0.005950548149776012
+                                },
+                                "entropy": 0.3317047303024232,
+                                "value": "Ethiopia"
+                              },
+                              "div": 0.0002673552363709716,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1470519934728,
+                                  2020.2679036925392
+                                ],
+                                "value": 2020.1898736564806
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000012",
+                        "node_attrs": {
+                          "country": {
+                            "confidence": {
+                              "Ethiopia": 0.3227843082529313,
+                              "SierraLeone": 0.046102727023283045,
+                              "SouthAfrica": 0.0662037852445325,
+                              "Zimbabwe": 0.256601505506047
+                            },
+                            "entropy": 2.232957263776037,
+                            "value": "Ethiopia"
+                          },
+                          "div": 0.0002339388528634363,
+                          "num_date": {
+                            "confidence": [
+                              2020.0945261263464,
+                              2020.1551017849195
+                            ],
+                            "value": 2020.1273073021132
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000025",
+                    "node_attrs": {
+                      "country": {
+                        "confidence": {
+                          "Ethiopia": 0.12239437951931192,
+                          "Morocco": 0.10796549854898337,
+                          "SouthAfrica": 0.17580577299189235,
+                          "Zimbabwe": 0.21524722636399166
+                        },
+                        "entropy": 2.5543358937918956,
+                        "value": "Zimbabwe"
+                      },
+                      "div": 0.00020052249468273522,
+                      "num_date": {
+                        "confidence": [
+                          2020.0445222345497,
+                          2020.1384663177676
+                        ],
+                        "value": 2020.0973915495908
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000016",
+                "node_attrs": {
+                  "country": {
+                    "confidence": {
+                      "Cameroon": 0.09535432767682052,
+                      "Morocco": 0.293048892992689,
+                      "SouthAfrica": 0.08437874318442234,
+                      "Zimbabwe": 0.06755703420208972
+                    },
+                    "entropy": 2.589509026982965,
+                    "value": "Morocco"
+                  },
+                  "div": 0.00020052249468273004,
+                  "num_date": {
+                    "confidence": [
+                      2020.008808690718,
+                      2020.1343079691396
+                    ],
+                    "value": 2020.064817761124
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000026",
+            "node_attrs": {
+              "country": {
+                "confidence": {
+                  "Egypt": 0.11524305445149664,
+                  "Morocco": 0.25504847586859936,
+                  "Togo": 0.0844493946321105,
+                  "Tunisia": 0.11879810632972511
+                },
+                "entropy": 2.5470972271329186,
+                "value": "Morocco"
+              },
+              "div": 0.00020052249468272487,
+              "num_date": {
+                "confidence": [
+                  2019.9767968041751,
+                  2020.0611571430418
+                ],
+                "value": 2020.0017109649998
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000027",
+        "node_attrs": {
+          "country": {
+            "confidence": {
+              "Morocco": 0.11534282479960986,
+              "SouthAfrica": 0.1721457528109971,
+              "Togo": 0.11721918474572633,
+              "Tunisia": 0.12792278057628992
+            },
+            "entropy": 2.6790934543721563,
+            "value": "SouthAfrica"
+          },
+          "div": 0.00016710595303621577,
+          "num_date": {
+            "confidence": [
+              2019.8157244400813,
+              2020.0347541552458
+            ],
+            "value": 2020.0027293096255
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "country": {
+        "confidence": {
+          "Ghana": 0.18325099835145756,
+          "SouthAfrica": 0.08729224421915048,
+          "Togo": 0.22491089740994769,
+          "Tunisia": 0.06781416448179944
+        },
+        "entropy": 2.610509739824614,
+        "value": "Togo"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2019.099519811859,
+          2019.7741827896662
+        ],
+        "value": 2019.6951769039717
+      }
+    }
+  },
+  "version": "v2"
+}

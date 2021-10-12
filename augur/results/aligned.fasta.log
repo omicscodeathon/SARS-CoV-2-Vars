@@ -1,0 +1,83 @@
+inputfile = orig
+38 x 29903 - 28240 d
+nthread = 1
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 38 (1 threads)   
+makedirectionlist (nuc) Version 7.487
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+1 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+38 x 29903 - 28240 d
+directionfile = _direction
+inputfile = orig
+subalignment = 0
+subalignmentoffset = 0
+38 x 29903 - 28240 d
+nthread = 1
+nthreadpair = 1
+nthreadtb = 1
+ppenalty_ex = 0
+stacksize: 8176 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+There are 12436 ambiguous characters.
+    1 / 38 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 38   10 / 38   20 / 38   30 / 38
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 37 (thread    0) fSTEP     2 / 37 (thread    0) fSTEP     3 / 37 (thread    0) fSTEP     4 / 37 (thread    0) fSTEP     5 / 37 (thread    0) fSTEP     6 / 37 (thread    0) fSTEP     7 / 37 (thread    0) fSTEP     8 / 37 (thread    0) fSTEP     9 / 37 (thread    0) fSTEP    10 / 37 (thread    0) fSTEP    11 / 37 (thread    0) fSTEP    12 / 37 (thread    0) fSTEP    13 / 37 (thread    0) fSTEP    14 / 37 (thread    0) fSTEP    15 / 37 (thread    0) fSTEP    16 / 37 (thread    0) fSTEP    17 / 37 (thread    0) fSTEP    18 / 37 (thread    0) fSTEP    19 / 37 (thread    0) fSTEP    20 / 37 (thread    0) fSTEP    21 / 37 (thread    0) fSTEP    22 / 37 (thread    0) fSTEP    23 / 37 (thread    0) fSTEP    24 / 37 (thread    0) fSTEP    25 / 37 (thread    0) fSTEP    26 / 37 (thread    0) fSTEP    27 / 37 (thread    0) fSTEP    28 / 37 (thread    0) fSTEP    29 / 37 (thread    0) fSTEP    30 / 37 (thread    0) fSTEP    31 / 37 (thread    0) fSTEP    32 / 37 (thread    0) fSTEP    33 / 37 (thread    0) fSTEP    34 / 37 (thread    0) fSTEP    35 / 37 (thread    0) fSTEP    36 / 37 (thread    0) fSTEP    37 / 37 (thread    0) f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 38 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 38   10 / 38   20 / 38   30 / 38
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 37 (thread    0) fSTEP     2 / 37 (thread    0) fSTEP     3 / 37 (thread    0) fSTEP     4 / 37 (thread    0) fSTEP     5 / 37 (thread    0) fSTEP     6 / 37 (thread    0) fSTEP     7 / 37 (thread    0) fSTEP     8 / 37 (thread    0) fSTEP     9 / 37 (thread    0) fSTEP    10 / 37 (thread    0) fSTEP    11 / 37 (thread    0) fSTEP    12 / 37 (thread    0) fSTEP    13 / 37 (thread    0) fSTEP    14 / 37 (thread    0) fSTEP    15 / 37 (thread    0) fSTEP    16 / 37 (thread    0) fSTEP    17 / 37 (thread    0) fSTEP    18 / 37 (thread    0) fSTEP    19 / 37 (thread    0) fSTEP    20 / 37 (thread    0) fSTEP    21 / 37 (thread    0) fSTEP    22 / 37 (thread    0) fSTEP    23 / 37 (thread    0) fSTEP    24 / 37 (thread    0) fSTEP    25 / 37 (thread    0) fSTEP    26 / 37 (thread    0) fSTEP    27 / 37 (thread    0) fSTEP    28 / 37 (thread    0) fSTEP    29 / 37 (thread    0) fSTEP    30 / 37 (thread    0) fSTEP    31 / 37 (thread    0) fSTEP    32 / 37 (thread    0) fSTEP    33 / 37 (thread    0) fSTEP    34 / 37 (thread    0) fSTEP    35 / 37 (thread    0) fSTEP    36 / 37 (thread    0) f
+Reallocating..done. *alloclen = 61217
+STEP    37 / 37 (thread    0) f
+done.
+
+disttbfast (nuc) Version 7.487
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
